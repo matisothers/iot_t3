@@ -27,9 +27,9 @@ const MainView = () => {
     setApiData(res.data);
   };
 
-  const postToApi = async () => {
+  const postToApi = async (formData) => {
     const res = await api.post("/ejemplo/", {
-      data: "data",
+      data: formData,
     });
     // ESTO ES UN EJEMPLO DE COMO HACER UN POST (no funciona por que los campos no son los correctos aqui)
   };
@@ -41,7 +41,7 @@ const MainView = () => {
       <div className="flex w-full h-full p-5">
         <div className="w-1/3 border rounded-md ">
           <h3 className="text-2xl p-2">Settings</h3>
-          <SettingsForm></SettingsForm>
+          <SettingsForm postToApi={postToApi}></SettingsForm>
 
           <Comment
             comment={`Aqui deben de poner todos los settings para interactuar con la base de datos deben de ser todos`}

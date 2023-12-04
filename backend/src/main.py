@@ -1,8 +1,8 @@
-from peewee import PostgresqlDatabase
+from peewee import PostgresqlDatabase, DoesNotExist
 from fastapi import FastAPI, Depends
 from pydantic import BaseModel
 from starlette.middleware.cors import CORSMiddleware
-
+from modelos import create_tables, Configuration, Datos
 # -------------------------
 # Conexion a la base de datos
 # -------------------------
@@ -47,14 +47,17 @@ app.add_middleware(
 
 class SetSetting(BaseModel):
     # Esto de ocupa para definir que recive un endpoint
-    setting_id: int
-    value: float
+    transport_layer: int
+    id_protocol: int
 
 
 @app.get("/ejemplo/")
 async def get_items(database: PostgresqlDatabase = Depends(get_database)):
     # Aqui pueden acceder a la base de datos y hacer las consultas que necesiten
-    return {"message": "Hello World"}
+    create_tables()
+    tables = database.get_tables()  # esto es solo un ejemplo
+    print(tables)
+    return {"message": "Hello World in get"}
 
 
 @app.post("/ejemplo/")
@@ -68,17 +71,46 @@ async def create_item(setting: SetSetting, database: PostgresqlDatabase = Depend
     return {"message": "Hello World"}
 
 
+
+@app.get("/create-tables/")
+async def create_tables_in_db():
+    create_tables()
+    return {"message": "Tablas Creadas!", "code": 200}
+
 @app.get("/config/")
 async def get_config(database: PostgresqlDatabase = Depends(get_database)):
-    database
-    pass
+    config_table = Configuration()
+    try:
+        config = config_table.get_by_id(1)
+    except DoesNotExist:
+        default_row = {"transport_layer": 0, "id_protocol": 0}
+        config_table.create(**default_row)
+        config = config_table.get_by_id(1)
+    return {"transport_layer": config.transport_layer, "id_protocol": config.id_protocol}
 
 
-@app.patch("/config/")
-async def set_config():
-    pass
+@app.post("/config/")
+async def set_config(setting: SetSetting, database: PostgresqlDatabase = Depends(get_database)):
+    setting_dict = setting.dict()
+    print(setting_dict)
+    config_table = Configuration()
+    try:
+        config = config_table.get_by_id(1)
+        config.transport_layer = setting_dict["transport_layer"]
+        config.id_protocol = setting_dict["id_protocol"]
+        config.save()
+
+    except DoesNotExist:
+        config = {"transport_layer": setting_dict["transport_layer"], "id_protocol": setting_dict["id_protocol"]}
+        config_table.create(**config)
+    
+    return config
 
 
 @app.get("/data/")
 async def get_data():
-    pass
+    datos = Datos()
+    response_data = datos.select()
+    return response_data
+            
+

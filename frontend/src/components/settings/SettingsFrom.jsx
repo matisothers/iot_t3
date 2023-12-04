@@ -1,6 +1,6 @@
 import { useForm } from "react-hook-form";
 
-export default function App() {
+export default function App({postToApi, getFromApi}) {
   const {
     register,
     handleSubmit,
@@ -9,9 +9,11 @@ export default function App() {
   } = useForm({
     defaultValues: async () => {
       // aqui pueden hacer un api.get para obtener la configuracion actual
-      //
+      let initialData = await getFromApi();
+      console.log(initialData);
       return {
-        nombreDelCampo: "valor de la base de datos",
+        transport_layer: initialData["transport_layer"],
+        id_protocol: initialData["id_protocol"],
       };
     },
   });
@@ -19,6 +21,7 @@ export default function App() {
   const onSubmit = (data) => {
     console.log(data);
     // Aqui deben de enviar a la api un cambio en la configuracion
+    postToApi(data);
   };
 
   console.log(watch("nombreDelCampo")); // watch input value by passing the name of it
@@ -26,18 +29,18 @@ export default function App() {
   return (
     <form className="flex flex-col gap-2 p-4" onSubmit={handleSubmit(onSubmit)}>
       <div className="flex justify-center items-center p-4  bg-slate-100 rounded-md shadow-black">
-        <label className="whitespace-nowrap mr-5">Setting 1:</label>
+        <label className="whitespace-nowrap mr-5">Transport Layer:</label>
         <input
           className="w-full h-10 rounded"
-          {...register("nombreDelCampo")}
+          {...register("transport_layer")}
         />
       </div>
 
       <div className="flex justify-center items-center p-4  bg-slate-100 rounded-md shadow-black">
-        <label className="whitespace-nowrap mr-5">Setting 1:</label>
+        <label className="whitespace-nowrap mr-5">Id Protocol:</label>
         <input
           className="w-full h-10 rounded"
-          {...register("nombreDelCampo")}
+          {...register("id_protocol")}
         />
       </div>
 
