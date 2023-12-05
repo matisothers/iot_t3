@@ -3,24 +3,37 @@ import SettingsForm from "../components/settings/SettingsFrom";
 import Comment from "../components/utiles/Comment";
 import api from "../utils/api";
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 const MainView = () => {
   const datos = [
     {
-      title: "Dataset 1",
-      data: [1, 2, 3, 4, 5, 6, 7, 8, 9],
+      title: "batt_level",
+      data: [],
     },
     {
-      title: "Dataset 2",
-      data: [10, 20, 30, 40, 50, 60, 70, 80, 90],
+      title: "hum",
+      data: [],
     },
     {
-      title: "Dataset 3",
-      data: [100, 200, 300, 400, 500, 600, 700, 800, 900],
+      title: "temp",
+      data: [],
+    },
+    {
+      title: "co",
+      data: [],
+    },
+    {
+      title: "pres",
+      data: [],
     },
   ];
   const [apiData, setApiData] = useState();
+  const [data, setData] = useState([]);
+
+  useEffect(() => {
+    getData();
+  }, []);
 
   const onClickGet = async () => {
     const res = await api.get("/config/");
@@ -31,8 +44,43 @@ const MainView = () => {
   const postToApi = async (formData) => {
     console.log(formData);
     const res = await api.post("/config/", formData);
+    setApiData(res.data);
     // ESTO ES UN EJEMPLO DE COMO HACER UN POST (no funciona por que los campos no son los correctos aqui)
   };
+
+  const getData = async () => {
+    const res = await api.get("/data/");
+    const datos = parseResponse(res);
+    setData(datos);
+  }
+
+  function parseResponse(res) {
+    for (let i = 0; i < res.data.length; i++) {
+      const element = res.data[i].__data__;
+      for (const [key, value] of Object.entries(element)) {
+        
+        let res = datos.filter((v) => v["title"] === key)
+        if (!res.length) continue;
+        res[0]["data"].push(value);
+      }
+      
+    }
+    console.log(datos);
+    return datos;
+  }
+
+  const createData = async () => {
+    for (let i = 0; i < 10; i++) {
+      const res = await api.post("/data/", apiData);
+      console.log(res);
+    }
+    getData();
+  }
+
+  const purgeData = async () => {
+    await api.delete("/data/");
+    setData();
+  }
 
   return (
     <>
@@ -51,7 +99,7 @@ const MainView = () => {
         <div className="w-2/3 border rounded-md ">
           <h3 className="text-2xl p-2">Datos</h3>
 
-          <BaseGraph datasets={datos} title="Grafico"></BaseGraph>
+          <BaseGraph datasets={data} title="Grafico"></BaseGraph>
 
           <Comment
             comment={`Aquí se espera que puedan seleccionar qué datos se quieren graficar
@@ -69,10 +117,22 @@ const MainView = () => {
           </button>
 
           <button
-            onClick={() => setApiData()}
+            onClick={() => {setApiData()}}
             className="px-4 py-2 rounded hover:bg-red-500 bg-red-300 m-4 "
           >
             CLEAR
+          </button>
+          <button
+            onClick={() => {createData()}}
+            className="px-4 py-2 rounded hover:bg-green-500 bg-blue-300 m-4 "
+          >
+            CREATE DATA
+          </button>
+          <button
+            onClick={() => {purgeData()}}  
+            className="px-4 py-2 rounded hover:bg-red-700 bg-red-500 m-4 "
+          >
+            CLEAR DATABASE DATA
           </button>
           <p>Resultados del GET:</p>
           <br />

@@ -3,6 +3,7 @@ from fastapi import FastAPI, Depends
 from pydantic import BaseModel
 from starlette.middleware.cors import CORSMiddleware
 from modelos import create_tables, Configuration, Datos
+import random
 # -------------------------
 # Conexion a la base de datos
 # -------------------------
@@ -91,20 +92,50 @@ async def set_config(setting: SetSetting, database: PostgresqlDatabase = Depends
     setting_dict = setting.dict()
     print(setting_dict)
     config_table = Configuration()
-    config = config_table.get_by_id(1)
-    config.transport_layer = setting_dict["transport_layer"]
-    config.id_protocol = setting_dict["id_protocol"]
-    config.save()
+    newconfig = {"transport_layer": setting_dict["transport_layer"], "id_protocol": setting_dict["id_protocol"]}
+    try:
+        config = config_table.get_by_id(1)
+        config.transport_layer = setting_dict["transport_layer"]
+        config.id_protocol = setting_dict["id_protocol"]
+        config.save()
 
-
+    except DoesNotExist:
+        config_table.create(**newconfig)
     
-    return config
+    return newconfig
 
 
 @app.get("/data/")
 async def get_data():
     datos = Datos()
-    response_data = datos.select()
+    response_data = list(datos.select())
     return response_data
-            
 
+# funcion para testear noma
+@app.post("/data/")
+async def create_random_data(setting: SetSetting, database: PostgresqlDatabase = Depends(get_database)):
+    data = setting.dict()
+    print(data)
+    protocol = data["id_protocol"]
+    row = {"batt_level": random.randint(0, 100)}
+    row["header_id"]  = random.randint(0, 10000)
+    row["id_device"]  = "oli"
+    row["id_protocol"]  = protocol
+    row["transport_layer"]  = data["transport_layer"]
+    row["length"]  = 1
+    row["header_mac"] = "aa:bb:cc:dd"
+    if (protocol > 0):
+        row["length"]  += 12
+        row["temp"] = random.randint(5, 30)
+        row["hum"] = random.randint(30, 80)
+        row["pres"] = random.randint(1000, 1200)
+        row["co"] = random.randrange(30, 200)
+    print(row)
+    Datos().create(**row)
+
+    return row
+
+@app.delete("/data/")
+async def purge(database: PostgresqlDatabase = Depends(get_database)):
+    Datos.delete().where(Datos.batt_level >= 0).execute()
+    return list(Datos.select())
