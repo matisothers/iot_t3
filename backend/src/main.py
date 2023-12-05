@@ -80,12 +80,9 @@ async def create_tables_in_db():
 @app.get("/config/")
 async def get_config(database: PostgresqlDatabase = Depends(get_database)):
     config_table = Configuration()
-    try:
-        config = config_table.get_by_id(1)
-    except DoesNotExist:
-        default_row = {"transport_layer": 0, "id_protocol": 0}
-        config_table.create(**default_row)
-        config = config_table.get_by_id(1)
+    
+    config = config_table.get_by_id(1)
+    
     return {"transport_layer": config.transport_layer, "id_protocol": config.id_protocol}
 
 
@@ -94,15 +91,12 @@ async def set_config(setting: SetSetting, database: PostgresqlDatabase = Depends
     setting_dict = setting.dict()
     print(setting_dict)
     config_table = Configuration()
-    try:
-        config = config_table.get_by_id(1)
-        config.transport_layer = setting_dict["transport_layer"]
-        config.id_protocol = setting_dict["id_protocol"]
-        config.save()
+    config = config_table.get_by_id(1)
+    config.transport_layer = setting_dict["transport_layer"]
+    config.id_protocol = setting_dict["id_protocol"]
+    config.save()
 
-    except DoesNotExist:
-        config = {"transport_layer": setting_dict["transport_layer"], "id_protocol": setting_dict["id_protocol"]}
-        config_table.create(**config)
+
     
     return config
 
