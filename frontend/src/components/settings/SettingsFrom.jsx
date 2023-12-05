@@ -24,7 +24,7 @@ export default function App({postToApi, getFromApi}) {
     postToApi(data);
   };
 
-  console.log(watch("nombreDelCampo")); // watch input value by passing the name of it
+  // console.log(watch("nombreDelCampo")); // watch input value by passing the name of it
 
   return (
     <form className="flex flex-col gap-2 p-4" onSubmit={handleSubmit(onSubmit)}>
