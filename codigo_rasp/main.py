@@ -11,7 +11,7 @@ def main():
     create_tables()
 
     # loop
-    while True:
+    while True: 
         config_table = Configuration()
         row = config_table.get_by_id(1)
        

@@ -13,8 +13,8 @@ TAG = "[RASP]"
 
 CHAR_CONFIG = "0xFF01"
 
-print(TAG, "Creando tablas")
-create_tables()
+# print(TAG, "Creando tablas")
+# create_tables()
 
 
 def unpack_msg(packet:bytes):
