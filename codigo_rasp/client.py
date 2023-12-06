@@ -138,56 +138,57 @@ CHARACTERISTIC_UUID = "0000ff01-0000-1000-8000-00805F9B34FB" # Busquen este valo
 
 
 async def manage_server(device, config):
-    print(TAG, "trying to connect to: ", device)
-    try:
-        async with BleakClient(device, timeout=5) as client:
-            print(TAG, "Conected with: ", client.address)
-            create_log_row(config, device)
-            delta_time = 0
-            
-            while True:
-                actual_config = config.get()
-                print(TAG, "La configuración es", actual_config)
-
-                # se pasa la configuracion
-                configs = config.get_all()
-                send_config = f"con{actual_config[0]}{actual_config[1]}"
-                await client.write_gatt_char(CHARACTERISTIC_UUID, send_config.encode())
-                read_time = datetime.now().timestamp()
-
-                # recibe datos
-                res = await client.read_gatt_char(CHARACTERISTIC_UUID)
-
-                unpacked = unpack_msg(res)
-
-                if delta_time == 0 and actual_config[1] > 0:
-                    delta_time = datetime.now().timestamp() - unpacked["timestamp"] # cuando se prendio
+    while True:
+        print(TAG, "trying to connect to: ", device)
+        try:
+            async with BleakClient(device, timeout=5) as client:
+                print(TAG, "Conected with: ", client.address)
+                create_log_row(config, device)
+                delta_time = 0
                 
-                if actual_config[1] > 0:
-                    unpacked["timestamp"] = delta_time + unpacked["timestamp"] # cuando se prendio + segundos que pasaron desde que se prendio
+                while True:
+                    actual_config = config.get()
+                    print(TAG, "La configuración es", actual_config)
 
-                # lo sube a la tabla
-                create_data_row(unpacked)
-                delay = (datetime.now().timestamp() - read_time) * 1000 # para pasar a mili segundos
-                loss = unpacked["length"] - len(res)
-                create_loss_row(delay, loss)
+                    # se pasa la configuracion
+                    configs = config.get_all()
+                    send_config = f"con{actual_config[0]}{actual_config[1]}"
+                    await client.write_gatt_char(CHARACTERISTIC_UUID, send_config.encode())
+                    read_time = datetime.now().timestamp()
 
-                # sleep piola pa que no explote
-                await asyncio.sleep(1)
+                    # recibe datos
+                    res = await client.read_gatt_char(CHARACTERISTIC_UUID)
 
-                if actual_config[0] != 0:
-                    print(TAG, "Disconnected with: ", client.address)
-                    break
-            
-            if actual_config[0] > 1: # quiere decir que nos vamos pa wi fi
-                print(TAG, "Cambiando a Wi Fi . . .")
-                return
+                    unpacked = unpack_msg(res)
 
-    except (exc.BleakDBusError, exc.BleakDeviceNotFoundError):
-        await asyncio.sleep(5)
+                    if delta_time == 0 and actual_config[1] > 0: 
+                        delta_time = datetime.now().timestamp() - unpacked["timestamp"] # cuando se prendio
+                    
+                    if actual_config[1] > 0:
+                        unpacked["timestamp"] = delta_time + unpacked["timestamp"] # cuando se prendio + segundos que pasaron desde que se prendio
 
-    except exc.BleakError as e:
-        print(e)
+                    # lo sube a la tabla
+                    create_data_row(unpacked)
+                    delay = (datetime.now().timestamp() - read_time) * 1000 # para pasar a mili segundos
+                    loss = unpacked["length"] - len(res)
+                    create_loss_row(delay, loss)
+
+                    # sleep piola pa que no explote
+                    await asyncio.sleep(1)
+
+                    if actual_config[0] != 0:
+                        print(TAG, "Disconnected with: ", client.address)
+                        break
+                
+                if actual_config[0] > 1: # quiere decir que nos vamos pa wi fi
+                    print(TAG, "Cambiando a Wi Fi . . .")
+                    return
+
+        except (exc.BleakDBusError, exc.BleakDeviceNotFoundError):
+            await asyncio.sleep(5)
+
+        except exc.BleakError as e:
+            print(e)
                 
         
 
@@ -203,9 +204,7 @@ async def main():
     for device in ADDRESS:
         connection_tasks.append(manage_server(device, config))
 
-    while config.get()[0] < 2:
-        print(config.get()[0])
-        await asyncio.gather(*connection_tasks)
+    await asyncio.gather(*connection_tasks)
 
         
             

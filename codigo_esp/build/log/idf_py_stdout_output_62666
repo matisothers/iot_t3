@@ -2798,4 +2798,839 @@ Reading restart counter from NVS ... The value is not initialized yet!
 [0;32mI (294789) pack_struct: Body length= 13[0m
 [0;32mI (294799) pack_struct: batt level= 11[0m
 [0;32mI (294799) WIFI: Headers puestos[0m
-[0;32mI (295869) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 456, handle 42[
+[0;32mI (295869) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 456, handle 42[0m
+[0;32mI (295879) GATTS_DEMO: GATT_WRITE_EVT, value len 5, value :[0m
+[0;32mI (295879) GATTS_DEMO: 63 6f 6e 30 30 [0m
+[0;32mI (295879) GATTS_DEMO: GATT_WRITE_EVT, value len 5, value :con00[0m
+[0;32mI (295889) MY_DEMO: Protocolo: 0. Transport layer: 0[0m
+[0;32mI (295949) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 457, handle 42
+[0m
+[0;32mI (295949) MAC address: MAC address: 3c:61:05:65:47:22[0m
+[0;32mI (295949) Create msg: DESPUES de MEMCPY[0m
+[0;32mI (295959) pack_struct: Body length= 13[0m
+[0;32mI (295959) pack_struct: batt level= 8[0m
+[0;32mI (295969) WIFI: Headers puestos[0m
+[0;32mI (297069) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 458, handle 42[0m
+[0;32mI (297079) GATTS_DEMO: GATT_WRITE_EVT, value len 5, value :[0m
+[0;32mI (297079) GATTS_DEMO: 63 6f 6e 30 30 [0m
+[0;32mI (297079) GATTS_DEMO: GATT_WRITE_EVT, value len 5, value :con00[0m
+[0;32mI (297089) MY_DEMO: Protocolo: 0. Transport layer: 0[0m
+[0;32mI (297189) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 459, handle 42
+[0m
+[0;32mI (297189) MAC address: MAC address: 3c:61:05:65:47:22[0m
+[0;32mI (297189) Create msg: DESPUES de MEMCPY[0m
+[0;32mI (297189) pack_struct: Body length= 13[0m
+[0;32mI (297199) pack_struct: batt level= 18[0m
+[0;32mI (297199) WIFI: Headers puestos[0m
+[0;32mI (298269) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 460, handle 42[0m
+[0;32mI (298279) GATTS_DEMO: GATT_WRITE_EVT, value len 5, value :[0m
+[0;32mI (298279) GATTS_DEMO: 63 6f 6e 30 30 [0m
+[0;32mI (298279) GATTS_DEMO: GATT_WRITE_EVT, value len 5, value :con00[0m
+[0;32mI (298289) MY_DEMO: Protocolo: 0. Transport layer: 0[0m
+[0;32mI (298349) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 461, handle 42
+[0m
+[0;32mI (298349) MAC address: MAC address: 3c:61:05:65:47:22[0m
+[0;32mI (298349) Create msg: DESPUES de MEMCPY[0m
+[0;32mI (298359) pack_struct: Body length= 13[0m
+[0;32mI (298359) pack_struct: batt level= 56[0m
+[0;32mI (298369) WIFI: Headers puestos[0m
+[0;32mI (299439) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 462, handle 42[0m
+[0;32mI (299439) GATTS_DEMO: GATT_WRITE_EVT, value len 5, value :[0m
+[0;32mI (299439) GATTS_DEMO: 63 6f 6e 30 30 [0m
+[0;32mI (299449) GATTS_DEMO: GATT_WRITE_EVT, value len 5, value :con00[0m
+[0;32mI (299449) MY_DEMO: Protocolo: 0. Transport layer: 0[0m
+[0;32mI (299509) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 463, handle 42
+[0m
+[0;32mI (299509) MAC address: MAC address: 3c:61:05:65:47:22[0m
+[0;32mI (299519) Create msg: DESPUES de MEMCPY[0m
+[0;32mI (299519) pack_struct: Body length= 13[0m
+[0;32mI (299519) pack_struct: batt level= 88[0m
+[0;32mI (299529) WIFI: Headers puestos[0m
+[0;32mI (300639) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 464, handle 42[0m
+[0;32mI (300639) GATTS_DEMO: GATT_WRITE_EVT, value len 5, value :[0m
+[0;32mI (300639) GATTS_DEMO: 63 6f 6e 30 30 [0m
+[0;32mI (300649) GATTS_DEMO: GATT_WRITE_EVT, value len 5, value :con00[0m
+[0;32mI (300649) MY_DEMO: Protocolo: 0. Transport layer: 0[0m
+[0;32mI (300709) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 465, handle 42
+[0m
+[0;32mI (300709) MAC address: MAC address: 3c:61:05:65:47:22[0m
+[0;32mI (300719) Create msg: DESPUES de MEMCPY[0m
+[0;32mI (300719) pack_struct: Body length= 13[0m
+[0;32mI (300719) pack_struct: batt level= 74[0m
+[0;32mI (300729) WIFI: Headers puestos[0m
+[0;32mI (301839) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 466, handle 42[0m
+[0;32mI (301839) GATTS_DEMO: GATT_WRITE_EVT, value len 5, value :[0m
+[0;32mI (301839) GATTS_DEMO: 63 6f 6e 30 30 [0m
+[0;32mI (301849) GATTS_DEMO: GATT_WRITE_EVT, value len 5, value :con00[0m
+[0;32mI (301849) MY_DEMO: Protocolo: 0. Transport layer: 0[0m
+[0;32mI (301909) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 467, handle 42
+[0m
+[0;32mI (301909) MAC address: MAC address: 3c:61:05:65:47:22[0m
+[0;32mI (301919) Create msg: DESPUES de MEMCPY[0m
+[0;32mI (301919) pack_struct: Body length= 13[0m
+[0;32mI (301919) pack_struct: batt level= 27[0m
+[0;32mI (301929) WIFI: Headers puestos[0m
+[0;33mW (305209) BT_HCI: hcif disc complete: hdl 0x0, rsn 0x13[0m
+[0;32mI (305209) GATTS_DEMO: ESP_GATTS_DISCONNECT_EVT, disconnect reason 0x13[0m
+[0;32mI (531059) GATTS_DEMO: ESP_GATTS_CONNECT_EVT, conn_id 0, remote 00:e0:4c:ab:47:03:[0m
+[0;32mI (531059) GATTS_DEMO: ESP_GATTS_MTU_EVT, MTU 500[0m
+[0;32mI (531649) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 6, handle 42[0m
+[0;32mI (531649) GATTS_DEMO: GATT_WRITE_EVT, value len 5, value :[0m
+[0;32mI (531659) GATTS_DEMO: 63 6f 6e 30 30 [0m
+[0;32mI (531659) GATTS_DEMO: GATT_WRITE_EVT, value len 5, value :con00[0m
+[0;32mI (531669) MY_DEMO: Protocolo: 0. Transport layer: 0[0m
+[0;32mI (531729) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 7, handle 42
+[0m
+[0;32mI (531729) MAC address: MAC address: 3c:61:05:65:47:22[0m
+[0;32mI (531729) Create msg: DESPUES de MEMCPY[0m
+[0;32mI (531729) pack_struct: Body length= 13[0m
+[0;32mI (531739) pack_struct: batt level= 46[0m
+[0;32mI (531739) WIFI: Headers puestos[0m
+[0;32mI (532889) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 8, handle 42[0m
+[0;32mI (532889) GATTS_DEMO: GATT_WRITE_EVT, value len 5, value :[0m
+[0;32mI (532889) GATTS_DEMO: 63 6f 6e 30 30 [0m
+[0;32mI (532899) GATTS_DEMO: GATT_WRITE_EVT, value len 5, value :con00[0m
+[0;32mI (532899) MY_DEMO: Protocolo: 0. Transport layer: 0[0m
+[0;32mI (532959) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 9, handle 42
+[0m
+[0;32mI (532969) MAC address: MAC address: 3c:61:05:65:47:22[0m
+[0;32mI (532969) Create msg: DESPUES de MEMCPY[0m
+[0;32mI (532969) pack_struct: Body length= 13[0m
+[0;32mI (532979) pack_struct: batt level= 13[0m
+[0;32mI (532979) WIFI: Headers puestos[0m
+[0;32mI (533059) GATTS_DEMO: update connection params status = 16, min_int = 16, max_int = 32,conn_int = 30,latency = 0, timeout = 400[0m
+[0;32mI (534049) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 10, handle 42[0m
+[0;32mI (534049) GATTS_DEMO: GATT_WRITE_EVT, value len 5, value :[0m
+[0;32mI (534059) GATTS_DEMO: 63 6f 6e 30 30 [0m
+[0;32mI (534059) GATTS_DEMO: GATT_WRITE_EVT, value len 5, value :con00[0m
+[0;32mI (534069) MY_DEMO: Protocolo: 0. Transport layer: 0[0m
+[0;32mI (534129) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 11, handle 42
+[0m
+[0;32mI (534129) MAC address: MAC address: 3c:61:05:65:47:22[0m
+[0;32mI (534129) Create msg: DESPUES de MEMCPY[0m
+[0;32mI (534129) pack_struct: Body length= 13[0m
+[0;32mI (534139) pack_struct: batt level= 73[0m
+[0;32mI (534139) WIFI: Headers puestos[0m
+[0;32mI (535209) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 12, handle 42[0m
+[0;32mI (535219) GATTS_DEMO: GATT_WRITE_EVT, value len 5, value :[0m
+[0;32mI (535219) GATTS_DEMO: 63 6f 6e 30 30 [0m
+[0;32mI (535219) GATTS_DEMO: GATT_WRITE_EVT, value len 5, value :con00[0m
+[0;32mI (535229) MY_DEMO: Protocolo: 0. Transport layer: 0[0m
+[0;32mI (535289) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 13, handle 42
+[0m
+[0;32mI (535289) MAC address: MAC address: 3c:61:05:65:47:22[0m
+[0;32mI (535289) Create msg: DESPUES de MEMCPY[0m
+[0;32mI (535299) pack_struct: Body length= 13[0m
+[0;32mI (535299) pack_struct: batt level= 96[0m
+[0;32mI (535309) WIFI: Headers puestos[0m
+[0;32mI (536409) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 14, handle 42[0m
+[0;32mI (536419) GATTS_DEMO: GATT_WRITE_EVT, value len 5, value :[0m
+[0;32mI (536419) GATTS_DEMO: 63 6f 6e 30 30 [0m
+[0;32mI (536419) GATTS_DEMO: GATT_WRITE_EVT, value len 5, value :con00[0m
+[0;32mI (536429) MY_DEMO: Protocolo: 0. Transport layer: 0[0m
+[0;32mI (536489) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 15, handle 42
+[0m
+[0;32mI (536489) MAC address: MAC address: 3c:61:05:65:47:22[0m
+[0;32mI (536489) Create msg: DESPUES de MEMCPY[0m
+[0;32mI (536499) pack_struct: Body length= 13[0m
+[0;32mI (536499) pack_struct: batt level= 54[0m
+[0;32mI (536509) WIFI: Headers puestos[0m
+[0;32mI (537689) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 16, handle 42[0m
+[0;32mI (537689) GATTS_DEMO: GATT_WRITE_EVT, value len 5, value :[0m
+[0;32mI (537689) GATTS_DEMO: 63 6f 6e 30 30 [0m
+[0;32mI (537699) GATTS_DEMO: GATT_WRITE_EVT, value len 5, value :con00[0m
+[0;32mI (537699) MY_DEMO: Protocolo: 0. Transport layer: 0[0m
+[0;32mI (537769) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 17, handle 42
+[0m
+[0;32mI (537769) MAC address: MAC address: 3c:61:05:65:47:22[0m
+[0;32mI (537769) Create msg: DESPUES de MEMCPY[0m
+[0;32mI (537769) pack_struct: Body length= 13[0m
+[0;32mI (537779) pack_struct: batt level= 54[0m
+[0;32mI (537779) WIFI: Headers puestos[0m
+[0;32mI (538889) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 18, handle 42[0m
+[0;32mI (538889) GATTS_DEMO: GATT_WRITE_EVT, value len 5, value :[0m
+[0;32mI (538889) GATTS_DEMO: 63 6f 6e 30 30 [0m
+[0;32mI (538899) GATTS_DEMO: GATT_WRITE_EVT, value len 5, value :con00[0m
+[0;32mI (538899) MY_DEMO: Protocolo: 0. Transport layer: 0[0m
+[0;32mI (538969) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 19, handle 42
+[0m
+[0;32mI (538969) MAC address: MAC address: 3c:61:05:65:47:22[0m
+[0;32mI (538969) Create msg: DESPUES de MEMCPY[0m
+[0;32mI (538969) pack_struct: Body length= 13[0m
+[0;32mI (538979) pack_struct: batt level= 84[0m
+[0;32mI (538979) WIFI: Headers puestos[0m
+[0;32mI (540089) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 20, handle 42[0m
+[0;32mI (540089) GATTS_DEMO: GATT_WRITE_EVT, value len 5, value :[0m
+[0;32mI (540089) GATTS_DEMO: 63 6f 6e 30 30 [0m
+[0;32mI (540099) GATTS_DEMO: GATT_WRITE_EVT, value len 5, value :con00[0m
+[0;32mI (540099) MY_DEMO: Protocolo: 0. Transport layer: 0[0m
+[0;32mI (540169) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 21, handle 42
+[0m
+[0;32mI (540169) MAC address: MAC address: 3c:61:05:65:47:22[0m
+[0;32mI (540169) Create msg: DESPUES de MEMCPY[0m
+[0;32mI (540169) pack_struct: Body length= 13[0m
+[0;32mI (540179) pack_struct: batt level= 18[0m
+[0;32mI (540179) WIFI: Headers puestos[0m
+[0;32mI (541249) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 22, handle 42[0m
+[0;32mI (541249) GATTS_DEMO: GATT_WRITE_EVT, value len 5, value :[0m
+[0;32mI (541259) GATTS_DEMO: 63 6f 6e 30 30 [0m
+[0;32mI (541259) GATTS_DEMO: GATT_WRITE_EVT, value len 5, value :con00[0m
+[0;32mI (541269) MY_DEMO: Protocolo: 0. Transport layer: 0[0m
+[0;32mI (541329) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 23, handle 42
+[0m
+[0;32mI (541329) MAC address: MAC address: 3c:61:05:65:47:22[0m
+[0;32mI (541329) Create msg: DESPUES de MEMCPY[0m
+[0;32mI (541339) pack_struct: Body length= 13[0m
+[0;32mI (541339) pack_struct: batt level= 56[0m
+[0;32mI (541339) WIFI: Headers puestos[0m
+[0;32mI (542559) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 24, handle 42[0m
+[0;32mI (542569) GATTS_DEMO: GATT_WRITE_EVT, value len 5, value :[0m
+[0;32mI (542569) GATTS_DEMO: 63 6f 6e 30 30 [0m
+[0;32mI (542569) GATTS_DEMO: GATT_WRITE_EVT, value len 5, value :con00[0m
+[0;32mI (542579) MY_DEMO: Protocolo: 0. Transport layer: 0[0m
+[0;32mI (542639) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 25, handle 42
+[0m
+[0;32mI (542639) MAC address: MAC address: 3c:61:05:65:47:22[0m
+[0;32mI (542639) Create msg: DESPUES de MEMCPY[0m
+[0;32mI (542649) pack_struct: Body length= 13[0m
+[0;32mI (542649) pack_struct: batt level= 18[0m
+[0;32mI (542659) WIFI: Headers puestos[0m
+[0;32mI (543729) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 26, handle 42[0m
+[0;32mI (543729) GATTS_DEMO: GATT_WRITE_EVT, value len 5, value :[0m
+[0;32mI (543729) GATTS_DEMO: 63 6f 6e 30 30 [0m
+[0;32mI (543739) GATTS_DEMO: GATT_WRITE_EVT, value len 5, value :con00[0m
+[0;32mI (543739) MY_DEMO: Protocolo: 0. Transport layer: 0[0m
+[0;32mI (543839) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 27, handle 42
+[0m
+[0;32mI (543839) MAC address: MAC address: 3c:61:05:65:47:22[0m
+[0;32mI (543839) Create msg: DESPUES de MEMCPY[0m
+[0;32mI (543849) pack_struct: Body length= 13[0m
+[0;32mI (543849) pack_struct: batt level= 77[0m
+[0;32mI (543859) WIFI: Headers puestos[0m
+[0;32mI (544929) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 28, handle 42[0m
+[0;32mI (544929) GATTS_DEMO: GATT_WRITE_EVT, value len 5, value :[0m
+[0;32mI (544929) GATTS_DEMO: 63 6f 6e 30 30 [0m
+[0;32mI (544939) GATTS_DEMO: GATT_WRITE_EVT, value len 5, value :con00[0m
+[0;32mI (544939) MY_DEMO: Protocolo: 0. Transport layer: 0[0m
+[0;32mI (544999) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 29, handle 42
+[0m
+[0;32mI (544999) MAC address: MAC address: 3c:61:05:65:47:22[0m
+[0;32mI (545009) Create msg: DESPUES de MEMCPY[0m
+[0;32mI (545009) pack_struct: Body length= 13[0m
+[0;32mI (545009) pack_struct: batt level= 78[0m
+[0;32mI (545019) WIFI: Headers puestos[0m
+[0;32mI (546129) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 30, handle 42[0m
+[0;32mI (546129) GATTS_DEMO: GATT_WRITE_EVT, value len 5, value :[0m
+[0;32mI (546129) GATTS_DEMO: 63 6f 6e 30 30 [0m
+[0;32mI (546139) GATTS_DEMO: GATT_WRITE_EVT, value len 5, value :con00[0m
+[0;32mI (546139) MY_DEMO: Protocolo: 0. Transport layer: 0[0m
+[0;32mI (546199) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 31, handle 42
+[0m
+[0;32mI (546199) MAC address: MAC address: 3c:61:05:65:47:22[0m
+[0;32mI (546209) Create msg: DESPUES de MEMCPY[0m
+[0;32mI (546209) pack_struct: Body length= 13[0m
+[0;32mI (546209) pack_struct: batt level= 77[0m
+[0;32mI (546219) WIFI: Headers puestos[0m
+[0;32mI (547289) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 32, handle 42[0m
+[0;32mI (547289) GATTS_DEMO: GATT_WRITE_EVT, value len 5, value :[0m
+[0;32mI (547289) GATTS_DEMO: 63 6f 6e 30 30 [0m
+[0;32mI (547299) GATTS_DEMO: GATT_WRITE_EVT, value len 5, value :con00[0m
+[0;32mI (547299) MY_DEMO: Protocolo: 0. Transport layer: 0[0m
+[0;32mI (547439) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 33, handle 42
+[0m
+[0;32mI (547439) MAC address: MAC address: 3c:61:05:65:47:22[0m
+[0;32mI (547439) Create msg: DESPUES de MEMCPY[0m
+[0;32mI (547449) pack_struct: Body length= 13[0m
+[0;32mI (547449) pack_struct: batt level= 100[0m
+[0;32mI (547459) WIFI: Headers puestos[0m
+[0;32mI (548559) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 34, handle 42[0m
+[0;32mI (548569) GATTS_DEMO: GATT_WRITE_EVT, value len 5, value :[0m
+[0;32mI (548569) GATTS_DEMO: 63 6f 6e 30 30 [0m
+[0;32mI (548569) GATTS_DEMO: GATT_WRITE_EVT, value len 5, value :con00[0m
+[0;32mI (548579) MY_DEMO: Protocolo: 0. Transport layer: 0[0m
+[0;32mI (548679) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 35, handle 42
+[0m
+[0;32mI (548679) MAC address: MAC address: 3c:61:05:65:47:22[0m
+[0;32mI (548679) Create msg: DESPUES de MEMCPY[0m
+[0;32mI (548689) pack_struct: Body length= 13[0m
+[0;32mI (548689) pack_struct: batt level= 55[0m
+[0;32mI (548689) WIFI: Headers puestos[0m
+[0;32mI (549759) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 36, handle 42[0m
+[0;32mI (549769) GATTS_DEMO: GATT_WRITE_EVT, value len 5, value :[0m
+[0;32mI (549769) GATTS_DEMO: 63 6f 6e 30 30 [0m
+[0;32mI (549769) GATTS_DEMO: GATT_WRITE_EVT, value len 5, value :con00[0m
+[0;32mI (549779) MY_DEMO: Protocolo: 0. Transport layer: 0[0m
+[0;32mI (549839) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 37, handle 42
+[0m
+[0;32mI (549839) MAC address: MAC address: 3c:61:05:65:47:22[0m
+[0;32mI (549839) Create msg: DESPUES de MEMCPY[0m
+[0;32mI (549849) pack_struct: Body length= 13[0m
+[0;32mI (549849) pack_struct: batt level= 29[0m
+[0;32mI (549859) WIFI: Headers puestos[0m
+[0;32mI (550959) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 38, handle 42[0m
+[0;32mI (550969) GATTS_DEMO: GATT_WRITE_EVT, value len 5, value :[0m
+[0;32mI (550969) GATTS_DEMO: 63 6f 6e 30 30 [0m
+[0;32mI (550969) GATTS_DEMO: GATT_WRITE_EVT, value len 5, value :con00[0m
+[0;32mI (550979) MY_DEMO: Protocolo: 0. Transport layer: 0[0m
+[0;32mI (551119) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 39, handle 42
+[0m
+[0;32mI (551119) MAC address: MAC address: 3c:61:05:65:47:22[0m
+[0;32mI (551119) Create msg: DESPUES de MEMCPY[0m
+[0;32mI (551119) pack_struct: Body length= 13[0m
+[0;32mI (551129) pack_struct: batt level= 3[0m
+[0;32mI (551129) WIFI: Headers puestos[0m
+[0;32mI (552279) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 40, handle 42[0m
+[0;32mI (552279) GATTS_DEMO: GATT_WRITE_EVT, value len 5, value :[0m
+[0;32mI (552279) GATTS_DEMO: 63 6f 6e 30 30 [0m
+[0;32mI (552289) GATTS_DEMO: GATT_WRITE_EVT, value len 5, value :con00[0m
+[0;32mI (552289) MY_DEMO: Protocolo: 0. Transport layer: 0[0m
+[0;32mI (552349) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 41, handle 42
+[0m
+[0;32mI (552349) MAC address: MAC address: 3c:61:05:65:47:22[0m
+[0;32mI (552359) Create msg: DESPUES de MEMCPY[0m
+[0;32mI (552359) pack_struct: Body length= 13[0m
+[0;32mI (552369) pack_struct: batt level= 62[0m
+[0;32mI (552369) WIFI: Headers puestos[0m
+[0;32mI (553439) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 42, handle 42[0m
+[0;32mI (553439) GATTS_DEMO: GATT_WRITE_EVT, value len 5, value :[0m
+[0;32mI (553439) GATTS_DEMO: 63 6f 6e 30 30 [0m
+[0;32mI (553449) GATTS_DEMO: GATT_WRITE_EVT, value len 5, value :con00[0m
+[0;32mI (553459) MY_DEMO: Protocolo: 0. Transport layer: 0[0m
+[0;32mI (553519) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 43, handle 42
+[0m
+[0;32mI (553519) MAC address: MAC address: 3c:61:05:65:47:22[0m
+[0;32mI (553519) Create msg: DESPUES de MEMCPY[0m
+[0;32mI (553519) pack_struct: Body length= 13[0m
+[0;32mI (553529) pack_struct: batt level= 56[0m
+[0;32mI (553529) WIFI: Headers puestos[0m
+[0;32mI (554599) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 44, handle 42[0m
+[0;32mI (554599) GATTS_DEMO: GATT_WRITE_EVT, value len 5, value :[0m
+[0;32mI (554609) GATTS_DEMO: 63 6f 6e 30 30 [0m
+[0;32mI (554609) GATTS_DEMO: GATT_WRITE_EVT, value len 5, value :con00[0m
+[0;32mI (554619) MY_DEMO: Protocolo: 0. Transport layer: 0[0m
+[0;32mI (554679) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 45, handle 42
+[0m
+[0;32mI (554679) MAC address: MAC address: 3c:61:05:65:47:22[0m
+[0;32mI (554679) Create msg: DESPUES de MEMCPY[0m
+[0;32mI (554689) pack_struct: Body length= 13[0m
+[0;32mI (554689) pack_struct: batt level= 71[0m
+[0;32mI (554699) WIFI: Headers puestos[0m
+[0;32mI (555799) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 46, handle 42[0m
+[0;32mI (555799) GATTS_DEMO: GATT_WRITE_EVT, value len 5, value :[0m
+[0;32mI (555809) GATTS_DEMO: 63 6f 6e 30 30 [0m
+[0;32mI (555809) GATTS_DEMO: GATT_WRITE_EVT, value len 5, value :con00[0m
+[0;32mI (555819) MY_DEMO: Protocolo: 0. Transport layer: 0[0m
+[0;32mI (555919) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 47, handle 42
+[0m
+[0;32mI (555919) MAC address: MAC address: 3c:61:05:65:47:22[0m
+[0;32mI (555919) Create msg: DESPUES de MEMCPY[0m
+[0;32mI (555919) pack_struct: Body length= 13[0m
+[0;32mI (555929) pack_struct: batt level= 17[0m
+[0;32mI (555929) WIFI: Headers puestos[0m
+[0;32mI (557079) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 48, handle 42[0m
+[0;32mI (557079) GATTS_DEMO: GATT_WRITE_EVT, value len 5, value :[0m
+[0;32mI (557079) GATTS_DEMO: 63 6f 6e 30 30 [0m
+[0;32mI (557089) GATTS_DEMO: GATT_WRITE_EVT, value len 5, value :con00[0m
+[0;32mI (557089) MY_DEMO: Protocolo: 0. Transport layer: 0[0m
+[0;32mI (557189) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 49, handle 42
+[0m
+[0;32mI (557189) MAC address: MAC address: 3c:61:05:65:47:22[0m
+[0;32mI (557189) Create msg: DESPUES de MEMCPY[0m
+[0;32mI (557199) pack_struct: Body length= 13[0m
+[0;32mI (557199) pack_struct: batt level= 95[0m
+[0;32mI (557209) WIFI: Headers puestos[0m
+[0;32mI (558309) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 50, handle 42[0m
+[0;32mI (558319) GATTS_DEMO: GATT_WRITE_EVT, value len 5, value :[0m
+[0;32mI (558319) GATTS_DEMO: 63 6f 6e 30 30 [0m
+[0;32mI (558319) GATTS_DEMO: GATT_WRITE_EVT, value len 5, value :con00[0m
+[0;32mI (558329) MY_DEMO: Protocolo: 0. Transport layer: 0[0m
+[0;32mI (558429) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 51, handle 42
+[0m
+[0;32mI (558429) MAC address: MAC address: 3c:61:05:65:47:22[0m
+[0;32mI (558429) Create msg: DESPUES de MEMCPY[0m
+[0;32mI (558439) pack_struct: Body length= 13[0m
+[0;32mI (558439) pack_struct: batt level= 82[0m
+[0;32mI (558449) WIFI: Headers puestos[0m
+[0;32mI (559589) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 52, handle 42[0m
+[0;32mI (559589) GATTS_DEMO: GATT_WRITE_EVT, value len 5, value :[0m
+[0;32mI (559599) GATTS_DEMO: 63 6f 6e 30 30 [0m
+[0;32mI (559599) GATTS_DEMO: GATT_WRITE_EVT, value len 5, value :con00[0m
+[0;32mI (559609) MY_DEMO: Protocolo: 0. Transport layer: 0[0m
+[0;32mI (559669) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 53, handle 42
+[0m
+[0;32mI (559669) MAC address: MAC address: 3c:61:05:65:47:22[0m
+[0;32mI (559669) Create msg: DESPUES de MEMCPY[0m
+[0;32mI (559669) pack_struct: Body length= 13[0m
+[0;32mI (559679) pack_struct: batt level= 31[0m
+[0;32mI (559679) WIFI: Headers puestos[0m
+[0;32mI (560789) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 54, handle 42[0m
+[0;32mI (560789) GATTS_DEMO: GATT_WRITE_EVT, value len 5, value :[0m
+[0;32mI (560799) GATTS_DEMO: 63 6f 6e 30 30 [0m
+[0;32mI (560799) GATTS_DEMO: GATT_WRITE_EVT, value len 5, value :con00[0m
+[0;32mI (560809) MY_DEMO: Protocolo: 0. Transport layer: 0[0m
+[0;32mI (560869) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 55, handle 42
+[0m
+[0;32mI (560869) MAC address: MAC address: 3c:61:05:65:47:22[0m
+[0;32mI (560869) Create msg: DESPUES de MEMCPY[0m
+[0;32mI (560869) pack_struct: Body length= 13[0m
+[0;32mI (560879) pack_struct: batt level= 81[0m
+[0;32mI (560879) WIFI: Headers puestos[0m
+[0;32mI (561949) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 56, handle 42[0m
+[0;32mI (561949) GATTS_DEMO: GATT_WRITE_EVT, value len 5, value :[0m
+[0;32mI (561959) GATTS_DEMO: 63 6f 6e 30 30 [0m
+[0;32mI (561959) GATTS_DEMO: GATT_WRITE_EVT, value len 5, value :con00[0m
+[0;32mI (561969) MY_DEMO: Protocolo: 0. Transport layer: 0[0m
+[0;32mI (562029) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 57, handle 42
+[0m
+[0;32mI (562029) MAC address: MAC address: 3c:61:05:65:47:22[0m
+[0;32mI (562029) Create msg: DESPUES de MEMCPY[0m
+[0;32mI (562039) pack_struct: Body length= 13[0m
+[0;32mI (562039) pack_struct: batt level= 5[0m
+[0;32mI (562049) WIFI: Headers puestos[0m
+[0;32mI (563149) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 58, handle 42[0m
+[0;32mI (563149) GATTS_DEMO: GATT_WRITE_EVT, value len 5, value :[0m
+[0;32mI (563159) GATTS_DEMO: 63 6f 6e 30 30 [0m
+[0;32mI (563159) GATTS_DEMO: GATT_WRITE_EVT, value len 5, value :con00[0m
+[0;32mI (563169) MY_DEMO: Protocolo: 0. Transport layer: 0[0m
+[0;32mI (563229) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 59, handle 42
+[0m
+[0;32mI (563229) MAC address: MAC address: 3c:61:05:65:47:22[0m
+[0;32mI (563229) Create msg: DESPUES de MEMCPY[0m
+[0;32mI (563239) pack_struct: Body length= 13[0m
+[0;32mI (563239) pack_struct: batt level= 87[0m
+[0;32mI (563249) WIFI: Headers puestos[0m
+[0;32mI (564349) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 60, handle 42[0m
+[0;32mI (564359) GATTS_DEMO: GATT_WRITE_EVT, value len 5, value :[0m
+[0;32mI (564359) GATTS_DEMO: 63 6f 6e 30 30 [0m
+[0;32mI (564359) GATTS_DEMO: GATT_WRITE_EVT, value len 5, value :con00[0m
+[0;32mI (564369) MY_DEMO: Protocolo: 0. Transport layer: 0[0m
+[0;32mI (564429) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 61, handle 42
+[0m
+[0;32mI (564429) MAC address: MAC address: 3c:61:05:65:47:22[0m
+[0;32mI (564429) Create msg: DESPUES de MEMCPY[0m
+[0;32mI (564439) pack_struct: Body length= 13[0m
+[0;32mI (564439) pack_struct: batt level= 60[0m
+[0;32mI (564449) WIFI: Headers puestos[0m
+[0;32mI (565519) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 62, handle 42[0m
+[0;32mI (565519) GATTS_DEMO: GATT_WRITE_EVT, value len 5, value :[0m
+[0;32mI (565519) GATTS_DEMO: 63 6f 6e 30 30 [0m
+[0;32mI (565519) GATTS_DEMO: GATT_WRITE_EVT, value len 5, value :con00[0m
+[0;32mI (565529) MY_DEMO: Protocolo: 0. Transport layer: 0[0m
+[0;32mI (565589) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 63, handle 42
+[0m
+[0;32mI (565589) MAC address: MAC address: 3c:61:05:65:47:22[0m
+[0;32mI (565589) Create msg: DESPUES de MEMCPY[0m
+[0;32mI (565599) pack_struct: Body length= 13[0m
+[0;32mI (565599) pack_struct: batt level= 8[0m
+[0;32mI (565609) WIFI: Headers puestos[0m
+[0;32mI (566719) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 64, handle 42[0m
+[0;32mI (566719) GATTS_DEMO: GATT_WRITE_EVT, value len 5, value :[0m
+[0;32mI (566719) GATTS_DEMO: 63 6f 6e 30 30 [0m
+[0;32mI (566729) GATTS_DEMO: GATT_WRITE_EVT, value len 5, value :con00[0m
+[0;32mI (566729) MY_DEMO: Protocolo: 0. Transport layer: 0[0m
+[0;32mI (566789) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 65, handle 42
+[0m
+[0;32mI (566789) MAC address: MAC address: 3c:61:05:65:47:22[0m
+[0;32mI (566789) Create msg: DESPUES de MEMCPY[0m
+[0;32mI (566799) pack_struct: Body length= 13[0m
+[0;32mI (566799) pack_struct: batt level= 55[0m
+[0;32mI (566809) WIFI: Headers puestos[0m
+[0;32mI (567879) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 66, handle 42[0m
+[0;32mI (567879) GATTS_DEMO: GATT_WRITE_EVT, value len 5, value :[0m
+[0;32mI (567879) GATTS_DEMO: 63 6f 6e 30 30 [0m
+[0;32mI (567889) GATTS_DEMO: GATT_WRITE_EVT, value len 5, value :con00[0m
+[0;32mI (567889) MY_DEMO: Protocolo: 0. Transport layer: 0[0m
+[0;32mI (567949) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 67, handle 42
+[0m
+[0;32mI (567959) MAC address: MAC address: 3c:61:05:65:47:22[0m
+[0;32mI (567959) Create msg: DESPUES de MEMCPY[0m
+[0;32mI (567959) pack_struct: Body length= 13[0m
+[0;32mI (567969) pack_struct: batt level= 80[0m
+[0;32mI (567969) WIFI: Headers puestos[0m
+[0;32mI (569039) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 68, handle 42[0m
+[0;32mI (569039) GATTS_DEMO: GATT_WRITE_EVT, value len 5, value :[0m
+[0;32mI (569049) GATTS_DEMO: 63 6f 6e 30 30 [0m
+[0;32mI (569049) GATTS_DEMO: GATT_WRITE_EVT, value len 5, value :con00[0m
+[0;32mI (569059) MY_DEMO: Protocolo: 0. Transport layer: 0[0m
+[0;32mI (569119) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 69, handle 42
+[0m
+[0;32mI (569119) MAC address: MAC address: 3c:61:05:65:47:22[0m
+[0;32mI (569119) Create msg: DESPUES de MEMCPY[0m
+[0;32mI (569119) pack_struct: Body length= 13[0m
+[0;32mI (569129) pack_struct: batt level= 3[0m
+[0;32mI (569129) WIFI: Headers puestos[0m
+[0;32mI (570279) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 70, handle 42[0m
+[0;32mI (570279) GATTS_DEMO: GATT_WRITE_EVT, value len 5, value :[0m
+[0;32mI (570279) GATTS_DEMO: 63 6f 6e 30 30 [0m
+[0;32mI (570289) GATTS_DEMO: GATT_WRITE_EVT, value len 5, value :con00[0m
+[0;32mI (570289) MY_DEMO: Protocolo: 0. Transport layer: 0[0m
+[0;32mI (570389) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 71, handle 42
+[0m
+[0;32mI (570389) MAC address: MAC address: 3c:61:05:65:47:22[0m
+[0;32mI (570399) Create msg: DESPUES de MEMCPY[0m
+[0;32mI (570399) pack_struct: Body length= 13[0m
+[0;32mI (570399) pack_struct: batt level= 66[0m
+[0;32mI (570409) WIFI: Headers puestos[0m
+[0;32mI (571589) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 72, handle 42[0m
+[0;32mI (571589) GATTS_DEMO: GATT_WRITE_EVT, value len 5, value :[0m
+[0;32mI (571599) GATTS_DEMO: 63 6f 6e 30 30 [0m
+[0;32mI (571599) GATTS_DEMO: GATT_WRITE_EVT, value len 5, value :con00[0m
+[0;32mI (571609) MY_DEMO: Protocolo: 0. Transport layer: 0[0m
+[0;32mI (571669) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 73, handle 42
+[0m
+[0;32mI (571669) MAC address: MAC address: 3c:61:05:65:47:22[0m
+[0;32mI (571669) Create msg: DESPUES de MEMCPY[0m
+[0;32mI (571669) pack_struct: Body length= 13[0m
+[0;32mI (571679) pack_struct: batt level= 54[0m
+[0;32mI (571679) WIFI: Headers puestos[0m
+[0;32mI (572789) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 74, handle 42[0m
+[0;32mI (572789) GATTS_DEMO: GATT_WRITE_EVT, value len 5, value :[0m
+[0;32mI (572799) GATTS_DEMO: 63 6f 6e 30 30 [0m
+[0;32mI (572799) GATTS_DEMO: GATT_WRITE_EVT, value len 5, value :con00[0m
+[0;32mI (572809) MY_DEMO: Protocolo: 0. Transport layer: 0[0m
+[0;32mI (572939) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 75, handle 42
+[0m
+[0;32mI (572939) MAC address: MAC address: 3c:61:05:65:47:22[0m
+[0;32mI (572949) Create msg: DESPUES de MEMCPY[0m
+[0;32mI (572949) pack_struct: Body length= 13[0m
+[0;32mI (572949) pack_struct: batt level= 33[0m
+[0;32mI (572959) WIFI: Headers puestos[0m
+[0;32mI (574069) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 76, handle 42[0m
+[0;32mI (574069) GATTS_DEMO: GATT_WRITE_EVT, value len 5, value :[0m
+[0;32mI (574069) GATTS_DEMO: 63 6f 6e 30 30 [0m
+[0;32mI (574079) GATTS_DEMO: GATT_WRITE_EVT, value len 5, value :con00[0m
+[0;32mI (574079) MY_DEMO: Protocolo: 0. Transport layer: 0[0m
+[0;32mI (574219) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 77, handle 42
+[0m
+[0;32mI (574219) MAC address: MAC address: 3c:61:05:65:47:22[0m
+[0;32mI (574219) Create msg: DESPUES de MEMCPY[0m
+[0;32mI (574219) pack_struct: Body length= 13[0m
+[0;32mI (574229) pack_struct: batt level= 37[0m
+[0;32mI (574229) WIFI: Headers puestos[0m
+[0;32mI (575299) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 78, handle 42[0m
+[0;32mI (575309) GATTS_DEMO: GATT_WRITE_EVT, value len 5, value :[0m
+[0;32mI (575309) GATTS_DEMO: 63 6f 6e 30 30 [0m
+[0;32mI (575309) GATTS_DEMO: GATT_WRITE_EVT, value len 5, value :con00[0m
+[0;32mI (575319) MY_DEMO: Protocolo: 0. Transport layer: 0[0m
+[0;32mI (575459) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 79, handle 42
+[0m
+[0;32mI (575459) MAC address: MAC address: 3c:61:05:65:47:22[0m
+[0;32mI (575459) Create msg: DESPUES de MEMCPY[0m
+[0;32mI (575459) pack_struct: Body length= 13[0m
+[0;32mI (575469) pack_struct: batt level= 33[0m
+[0;32mI (575469) WIFI: Headers puestos[0m
+[0;32mI (576649) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 80, handle 42[0m
+[0;32mI (576659) GATTS_DEMO: GATT_WRITE_EVT, value len 5, value :[0m
+[0;32mI (576659) GATTS_DEMO: 63 6f 6e 30 30 [0m
+[0;32mI (576659) GATTS_DEMO: GATT_WRITE_EVT, value len 5, value :con00[0m
+[0;32mI (576669) MY_DEMO: Protocolo: 0. Transport layer: 0[0m
+[0;32mI (576769) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 81, handle 42
+[0m
+[0;32mI (576769) MAC address: MAC address: 3c:61:05:65:47:22[0m
+[0;32mI (576769) Create msg: DESPUES de MEMCPY[0m
+[0;32mI (576779) pack_struct: Body length= 13[0m
+[0;32mI (576779) pack_struct: batt level= 64[0m
+[0;32mI (576779) WIFI: Headers puestos[0m
+[0;32mI (577849) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 82, handle 42[0m
+[0;32mI (577859) GATTS_DEMO: GATT_WRITE_EVT, value len 5, value :[0m
+[0;32mI (577859) GATTS_DEMO: 63 6f 6e 30 30 [0m
+[0;32mI (577859) GATTS_DEMO: GATT_WRITE_EVT, value len 5, value :con00[0m
+[0;32mI (577869) MY_DEMO: Protocolo: 0. Transport layer: 0[0m
+[0;32mI (577929) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 83, handle 42
+[0m
+[0;32mI (577929) MAC address: MAC address: 3c:61:05:65:47:22[0m
+[0;32mI (577929) Create msg: DESPUES de MEMCPY[0m
+[0;32mI (577939) pack_struct: Body length= 13[0m
+[0;32mI (577939) pack_struct: batt level= 18[0m
+[0;32mI (577949) WIFI: Headers puestos[0m
+[0;32mI (579049) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 84, handle 42[0m
+[0;32mI (579059) GATTS_DEMO: GATT_WRITE_EVT, value len 5, value :[0m
+[0;32mI (579059) GATTS_DEMO: 63 6f 6e 30 30 [0m
+[0;32mI (579059) GATTS_DEMO: GATT_WRITE_EVT, value len 5, value :con00[0m
+[0;32mI (579069) MY_DEMO: Protocolo: 0. Transport layer: 0[0m
+[0;32mI (579129) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 85, handle 42
+[0m
+[0;32mI (579129) MAC address: MAC address: 3c:61:05:65:47:22[0m
+[0;32mI (579129) Create msg: DESPUES de MEMCPY[0m
+[0;32mI (579139) pack_struct: Body length= 13[0m
+[0;32mI (579139) pack_struct: batt level= 8[0m
+[0;32mI (579149) WIFI: Headers puestos[0m
+[0;32mI (580219) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 86, handle 42[0m
+[0;32mI (580219) GATTS_DEMO: GATT_WRITE_EVT, value len 5, value :[0m
+[0;32mI (580219) GATTS_DEMO: 63 6f 6e 30 30 [0m
+[0;32mI (580229) GATTS_DEMO: GATT_WRITE_EVT, value len 5, value :con00[0m
+[0;32mI (580229) MY_DEMO: Protocolo: 0. Transport layer: 0[0m
+[0;32mI (580289) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 87, handle 42
+[0m
+[0;32mI (580289) MAC address: MAC address: 3c:61:05:65:47:22[0m
+[0;32mI (580299) Create msg: DESPUES de MEMCPY[0m
+[0;32mI (580299) pack_struct: Body length= 13[0m
+[0;32mI (580309) pack_struct: batt level= 84[0m
+[0;32mI (580309) WIFI: Headers puestos[0m
+[0;32mI (581419) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 88, handle 42[0m
+[0;32mI (581419) GATTS_DEMO: GATT_WRITE_EVT, value len 5, value :[0m
+[0;32mI (581419) GATTS_DEMO: 63 6f 6e 30 30 [0m
+[0;32mI (581429) GATTS_DEMO: GATT_WRITE_EVT, value len 5, value :con00[0m
+[0;32mI (581429) MY_DEMO: Protocolo: 0. Transport layer: 0[0m
+[0;32mI (581529) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 89, handle 42
+[0m
+[0;32mI (581529) MAC address: MAC address: 3c:61:05:65:47:22[0m
+[0;32mI (581529) Create msg: DESPUES de MEMCPY[0m
+[0;32mI (581539) pack_struct: Body length= 13[0m
+[0;32mI (581539) pack_struct: batt level= 11[0m
+[0;32mI (581549) WIFI: Headers puestos[0m
+[0;32mI (582649) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 90, handle 42[0m
+[0;32mI (582659) GATTS_DEMO: GATT_WRITE_EVT, value len 5, value :[0m
+[0;32mI (582659) GATTS_DEMO: 63 6f 6e 30 30 [0m
+[0;32mI (582659) GATTS_DEMO: GATT_WRITE_EVT, value len 5, value :con00[0m
+[0;32mI (582669) MY_DEMO: Protocolo: 0. Transport layer: 0[0m
+[0;32mI (582729) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 91, handle 42
+[0m
+[0;32mI (582729) MAC address: MAC address: 3c:61:05:65:47:22[0m
+[0;32mI (582729) Create msg: DESPUES de MEMCPY[0m
+[0;32mI (582739) pack_struct: Body length= 13[0m
+[0;32mI (582739) pack_struct: batt level= 68[0m
+[0;32mI (582749) WIFI: Headers puestos[0m
+[0;32mI (583819) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 92, handle 42[0m
+[0;32mI (583819) GATTS_DEMO: GATT_WRITE_EVT, value len 5, value :[0m
+[0;32mI (583819) GATTS_DEMO: 63 6f 6e 30 30 [0m
+[0;32mI (583829) GATTS_DEMO: GATT_WRITE_EVT, value len 5, value :con00[0m
+[0;32mI (583829) MY_DEMO: Protocolo: 0. Transport layer: 0[0m
+[0;32mI (583929) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 93, handle 42
+[0m
+[0;32mI (583929) MAC address: MAC address: 3c:61:05:65:47:22[0m
+[0;32mI (583929) Create msg: DESPUES de MEMCPY[0m
+[0;32mI (583939) pack_struct: Body length= 13[0m
+[0;32mI (583939) pack_struct: batt level= 17[0m
+[0;32mI (583949) WIFI: Headers puestos[0m
+[0;32mI (585049) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 94, handle 42[0m
+[0;32mI (585059) GATTS_DEMO: GATT_WRITE_EVT, value len 5, value :[0m
+[0;32mI (585059) GATTS_DEMO: 63 6f 6e 30 30 [0m
+[0;32mI (585059) GATTS_DEMO: GATT_WRITE_EVT, value len 5, value :con00[0m
+[0;32mI (585069) MY_DEMO: Protocolo: 0. Transport layer: 0[0m
+[0;32mI (585129) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 95, handle 42
+[0m
+[0;32mI (585129) MAC address: MAC address: 3c:61:05:65:47:22[0m
+[0;32mI (585129) Create msg: DESPUES de MEMCPY[0m
+[0;32mI (585139) pack_struct: Body length= 13[0m
+[0;32mI (585139) pack_struct: batt level= 47[0m
+[0;32mI (585149) WIFI: Headers puestos[0m
+[0;32mI (586219) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 96, handle 42[0m
+[0;32mI (586219) GATTS_DEMO: GATT_WRITE_EVT, value len 5, value :[0m
+[0;32mI (586219) GATTS_DEMO: 63 6f 6e 30 30 [0m
+[0;32mI (586229) GATTS_DEMO: GATT_WRITE_EVT, value len 5, value :con00[0m
+[0;32mI (586229) MY_DEMO: Protocolo: 0. Transport layer: 0[0m
+[0;32mI (586289) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 97, handle 42
+[0m
+[0;32mI (586289) MAC address: MAC address: 3c:61:05:65:47:22[0m
+[0;32mI (586299) Create msg: DESPUES de MEMCPY[0m
+[0;32mI (586299) pack_struct: Body length= 13[0m
+[0;32mI (586309) pack_struct: batt level= 20[0m
+[0;32mI (586309) WIFI: Headers puestos[0m
+[0;32mI (587449) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 98, handle 42[0m
+[0;32mI (587459) GATTS_DEMO: GATT_WRITE_EVT, value len 5, value :[0m
+[0;32mI (587459) GATTS_DEMO: 63 6f 6e 30 30 [0m
+[0;32mI (587459) GATTS_DEMO: GATT_WRITE_EVT, value len 5, value :con00[0m
+[0;32mI (587469) MY_DEMO: Protocolo: 0. Transport layer: 0[0m
+[0;32mI (587569) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 99, handle 42
+[0m
+[0;32mI (587569) MAC address: MAC address: 3c:61:05:65:47:22[0m
+[0;32mI (587569) Create msg: DESPUES de MEMCPY[0m
+[0;32mI (587579) pack_struct: Body length= 13[0m
+[0;32mI (587579) pack_struct: batt level= 29[0m
+[0;32mI (587579) WIFI: Headers puestos[0m
+[0;32mI (588689) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 100, handle 42[0m
+[0;32mI (588689) GATTS_DEMO: GATT_WRITE_EVT, value len 5, value :[0m
+[0;32mI (588699) GATTS_DEMO: 63 6f 6e 30 30 [0m
+[0;32mI (588699) GATTS_DEMO: GATT_WRITE_EVT, value len 5, value :con00[0m
+[0;32mI (588709) MY_DEMO: Protocolo: 0. Transport layer: 0[0m
+[0;32mI (588769) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 101, handle 42
+[0m
+[0;32mI (588769) MAC address: MAC address: 3c:61:05:65:47:22[0m
+[0;32mI (588769) Create msg: DESPUES de MEMCPY[0m
+[0;32mI (588779) pack_struct: Body length= 13[0m
+[0;32mI (588779) pack_struct: batt level= 72[0m
+[0;32mI (588789) WIFI: Headers puestos[0m
+[0;32mI (589889) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 102, handle 42[0m
+[0;32mI (589889) GATTS_DEMO: GATT_WRITE_EVT, value len 5, value :[0m
+[0;32mI (589899) GATTS_DEMO: 63 6f 6e 30 30 [0m
+[0;32mI (589899) GATTS_DEMO: GATT_WRITE_EVT, value len 5, value :con00[0m
+[0;32mI (589909) MY_DEMO: Protocolo: 0. Transport layer: 0[0m
+[0;32mI (589969) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 103, handle 42
+[0m
+[0;32mI (589969) MAC address: MAC address: 3c:61:05:65:47:22[0m
+[0;32mI (589969) Create msg: DESPUES de MEMCPY[0m
+[0;32mI (589979) pack_struct: Body length= 13[0m
+[0;32mI (589979) pack_struct: batt level= 8[0m
+[0;32mI (589989) WIFI: Headers puestos[0m
+[0;32mI (591169) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 104, handle 42[0m
+[0;32mI (591169) GATTS_DEMO: GATT_WRITE_EVT, value len 5, value :[0m
+[0;32mI (591169) GATTS_DEMO: 63 6f 6e 30 30 [0m
+[0;32mI (591179) GATTS_DEMO: GATT_WRITE_EVT, value len 5, value :con00[0m
+[0;32mI (591179) MY_DEMO: Protocolo: 0. Transport layer: 0[0m
+[0;32mI (591239) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 105, handle 42
+[0m
+[0;32mI (591249) MAC address: MAC address: 3c:61:05:65:47:22[0m
+[0;32mI (591249) Create msg: DESPUES de MEMCPY[0m
+[0;32mI (591249) pack_struct: Body length= 13[0m
+[0;32mI (591259) pack_struct: batt level= 57[0m
+[0;32mI (591259) WIFI: Headers puestos[0m
+[0;32mI (592329) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 106, handle 42[0m
+[0;32mI (592329) GATTS_DEMO: GATT_WRITE_EVT, value len 5, value :[0m
+[0;32mI (592339) GATTS_DEMO: 63 6f 6e 30 30 [0m
+[0;32mI (592339) GATTS_DEMO: GATT_WRITE_EVT, value len 5, value :con00[0m
+[0;32mI (592349) MY_DEMO: Protocolo: 0. Transport layer: 0[0m
+[0;32mI (592409) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 107, handle 42
+[0m
+[0;32mI (592409) MAC address: MAC address: 3c:61:05:65:47:22[0m
+[0;32mI (592409) Create msg: DESPUES de MEMCPY[0m
+[0;32mI (592409) pack_struct: Body length= 13[0m
+[0;32mI (592419) pack_struct: batt level= 21[0m
+[0;32mI (592419) WIFI: Headers puestos[0m
+[0;32mI (593489) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 108, handle 42[0m
+[0;32mI (593499) GATTS_DEMO: GATT_WRITE_EVT, value len 5, value :[0m
+[0;32mI (593499) GATTS_DEMO: 63 6f 6e 30 30 [0m
+[0;32mI (593499) GATTS_DEMO: GATT_WRITE_EVT, value len 5, value :con00[0m
+[0;32mI (593509) MY_DEMO: Protocolo: 0. Transport layer: 0[0m
+[0;32mI (593609) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 109, handle 42
+[0m
+[0;32mI (593609) MAC address: MAC address: 3c:61:05:65:47:22[0m
+[0;32mI (593609) Create msg: DESPUES de MEMCPY[0m
+[0;32mI (593609) pack_struct: Body length= 13[0m
+[0;32mI (593619) pack_struct: batt level= 54[0m
+[0;32mI (593619) WIFI: Headers puestos[0m
+[0;32mI (594729) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 110, handle 42[0m
+[0;32mI (594729) GATTS_DEMO: GATT_WRITE_EVT, value len 5, value :[0m
+[0;32mI (594739) GATTS_DEMO: 63 6f 6e 30 30 [0m
+[0;32mI (594739) GATTS_DEMO: GATT_WRITE_EVT, value len 5, value :con00[0m
+[0;32mI (594749) MY_DEMO: Protocolo: 0. Transport layer: 0[0m
+[0;32mI (594839) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 111, handle 42
+[0m
+[0;32mI (594849) MAC address: MAC address: 3c:61:05:65:47:22[0m
+[0;32mI (594849) Create msg: DESPUES de MEMCPY[0m
+[0;32mI (594849) pack_struct: Body length= 13[0m
+[0;32mI (594859) pack_struct: batt level= 29[0m
+[0;32mI (594859) WIFI: Headers puestos[0m
+[0;32mI (595969) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 112, handle 42[0m
+[0;32mI (595969) GATTS_DEMO: GATT_WRITE_EVT, value len 5, value :[0m
+[0;32mI (595969) GATTS_DEMO: 63 6f 6e 30 30 [0m
+[0;32mI (595979) GATTS_DEMO: GATT_WRITE_EVT, value len 5, value :con00[0m
+[0;32mI (595979) MY_DEMO: Protocolo: 0. Transport layer: 0[0m
+[0;32mI (596039) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 113, handle 42
+[0m
+[0;32mI (596049) MAC address: MAC address: 3c:61:05:65:47:22[0m
+[0;32mI (596049) Create msg: DESPUES de MEMCPY[0m
+[0;32mI (596049) pack_struct: Body length= 13[0m
+[0;32mI (596059) pack_struct: batt level= 55[0m
+[0;32mI (596059) WIFI: Headers puestos[0m
+[0;32mI (597129) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 114, handle 42[0m
+[0;32mI (597129) GATTS_DEMO: GATT_WRITE_EVT, value len 5, value :[0m
+[0;32mI (597139) GATTS_DEMO: 63 6f 6e 30 30 [0m
+[0;32mI (597139) GATTS_DEMO: GATT_WRITE_EVT, value len 5, value :con00[0m
+[0;32mI (597149) MY_DEMO: Protocolo: 0. Transport layer: 0[0m
+[0;32mI (597209) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 115, handle 42
+[0m
+[0;32mI (597209) MAC address: MAC address: 3c:61:05:65:47:22[0m
+[0;32mI (597209) Create msg: DESPUES de MEMCPY[0m
+[0;32mI (597209) pack_struct: Body length= 13[0m
+[0;32mI (597219) pack_struct: batt level= 31[0m
+[0;32mI (597219) WIFI: Headers puestos[0m
+[0;32mI (598289) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 116, handle 42[0m
+[0;32mI (598299) GATTS_DEMO: GATT_WRITE_EVT, value len 5, value :[0m
+[0;32mI (598299) GATTS_DEMO: 63 6f 6e 30 30 [0m
+[0;32mI (598299) GATTS_DEMO: GATT_WRITE_EVT, value len 5, value :con00[0m
+[0;32mI (598309) MY_DEMO: Protocolo: 0. Transport layer: 0[0m
+[0;32mI (598409) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 117, handle 42
+[0m
+[0;32mI (598409) MAC address: MAC address: 3c:61:05:65:47:22[0m
+[0;32mI (598409) Create msg: DESPUES de MEMCPY[0m
+[0;32mI (598409) pack_struct: Body length= 13[0m
+[0;32mI (598419) pack_struct: batt level= 78[0m
+[0;32mI (598419) WIFI: Headers puestos[0m
+[0;32mI (599529) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 118, handle 42[0m
+[0;32mI (599529) GATTS_DEMO: GATT_WRITE_EVT, value len 5, value :[0m
+[0;32mI (599539) GATTS_DEMO: 63 6f 6e 30 30 [0m
+[0;32mI (599539) GATTS_DEMO: GATT_WRITE_EVT, value len 5, value :con00[0m
+[0;32mI (599549) MY_DEMO: Protocolo: 0. Transport layer: 0[0m
+[0;32mI (599609) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 119, handle 42
+[0m
+[0;32mI (599609) MAC address: MAC address: 3c:61:05:65:47:22[0m
+[0;32mI (599609) Create msg: DESPUES de MEMCPY[0m
+[0;32mI (599609) pack_struct: Body length= 13[0m
+[0;32mI (599619) pack_struct: batt level= 49[0m
+[0;32mI (599619) WIFI: Headers puestos[0m
+[0;32mI (600769) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 120, handle 42[0m
+[0;32mI (600769) GATTS_DEMO: GATT_WRITE_EVT, value len 5, value :[0m
+[0;32mI (600769) GATTS_DEMO: 63 6f 6e 30 30 [0m
+[0;32mI (600779) GATTS_DEMO: GATT_WRITE_EVT, value len 5, value :con00[0m
+[0;32mI (600779) MY_DEMO: Protocolo: 0. Transport layer: 0[0m
+[0;32mI (600879) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 121, handle 42
+[0m
+[0;32mI (600879) MAC address: MAC address: 3c:61:05:65:47:22[0m
+[0;32mI (600879) Create msg: DESPUES de MEMCPY[0m
+[0;32mI (600889) pack_struct: Body length= 13[0m
+[0;32mI (600889) pack_struct: batt level= 21[0m
+[0;32mI (600899) WIFI: Headers puestos[0m
+[0;32mI (602039) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 122, handle 42[0m
+[0;32mI (602049) GATTS_DEMO: GATT_WRITE_EVT, value len 5, value :[0m
+[0;32mI (602049) GATTS_DEMO: 63 6f 6e 30 30 [0m
+[0;32mI (602049) GATTS_DEMO: GATT_WRITE_EVT, value len 5, value :con00[0m
+[0;32mI (602059) MY_DEMO: Protocolo: 0. Transport layer: 0[0m
+[0;32mI (602119) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 123, handle 42
+[0m
+[0;32mI (602119) MAC address: MAC address: 3c:61:05:65:47:22[0m
+[0;32mI (602119) Create msg: DESPUES de MEMCPY[0m
+[0;32mI (602129) pack_struct: Body length= 13[0m
+[0;32mI (602129) pack_struct: batt level= 5[0m
+[0;32mI (602139) WIFI: Headers puestos[0m
+[0;32mI (603209) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 124, handle 42[0m
+[0;32mI (603209) GATTS_DEMO: GATT_WRITE_EVT, value len 5, value :[0m
+[0;32mI (603209) GATTS_DEMO: 63 6f 6e 30 30 [0m
+[0;32mI (603209) GATTS_DEMO: GATT_WRITE_EVT, value len 5, value :con00[0m
+[0;32mI (603219) MY_DEMO: Protocolo: 0. Transport layer: 0[0m
+[0;32mI (603279) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 125, handle 42
+[0m
+[0;32mI (603279) MAC address: MAC address: 3c:61:05:65:47:22[0m
+[0;32mI (603289) Create msg: DESPUES de MEMCPY[0m
+[0;32mI (603289) pack_struct: Body length= 13[0m
+[0;32mI (603289) pack_struct: batt level= 15[0m
+[0;32mI (603299) WIFI: Headers puestos[0m
+[0;32mI (604369) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 126, handle 42[0m
+[0;32mI (604369) GATTS_DEMO: GATT_WRITE_EVT, value len 5, value :[0m
+[0;32mI (604369) GATTS_DEMO: 63 6f 6e 30 30 [0m
+[0;32mI (604379) GATTS_DEMO: GATT_WRITE_EVT, value len 5, value :con00[0m
+[0;32mI (604379) MY_DEMO: Protocolo: 0. Transport layer: 0[0m
+[0;32mI (604519) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 127, handle 42
+[0m
+[0;32mI (604519) MAC address: MAC address: 3c:61:05:65:47:22[0m
+[0;32mI (604519) Create msg: DESPUES de MEMCPY[0m
+[0;32mI (604529) pack_struct: Body length= 13[0m
+[0;32mI (604529) pack_struct: batt level= 11[0m
+[0;32mI (604539) WIFI: Headers puestos[0m
+[0;32mI (605639) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 128, handle 42[0m
+[0;32mI (605649) GATTS_DEMO: GATT_WRITE_EVT, value len 5, value :[0m
+[0;32mI (605649) GATTS_DEMO: 63 6f 6e 30 30 [0m
+[0;32mI (605649) GATTS_DEMO: GATT_WRITE_EVT, value len 5, value :con00[0m
+[0;32mI (605659) MY_DEMO: Protocolo: 0. Transport layer: 0[0m
+[0;32mI (605759) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 129, handle 42
+[0m
+[0;32mI (605759) MAC address: MAC address: 3c:61:05:65:47:22[0m
+[0;32mI (605759) Create msg: DESPUES de MEMCPY[0m
+[0;32mI (605769) pack_struct: Body length= 13[0m
+[0;32mI (605769) pack_struct: batt level= 20[0m
+[0;32mI (605769) WIFI: Headers puestos[0m
+[0;32mI (606879) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 130, handle 42[0m
+[0;32mI (606879) GATTS_DEMO: GATT_WRITE_EVT, value len 5, value :[0m
+[0;32mI (606889) GATTS_DEMO: 63 6f 6e 30 30 [0m
+[0;32mI (606889) GATTS_DEMO: GATT_WRITE_EVT, value len 5, value :con00[0m
+[0;32mI (606899) MY_DEMO: Protocolo: 0. Transport layer: 0[0m
+[0;32mI (606959) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 131, handle 42
+[0m
+[0;32mI (606959) MAC address: MAC address: 3c:61:05:65:47:22[0m
+[0;32mI (606959) Create msg: DESPUES de MEMCPY[0m
+[0;32mI (606969) pack_struct: Body length= 13[0m
+[0;32mI (606969) pack_struct: batt level= 26[0m
+[0;32mI (606969) WIFI: Headers puestos[0m
+[0;32mI (608039) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 132, handle 42[0m
+[0;32mI (608049) GATTS_DEMO: GATT_WRITE_EVT, value len 5, value :[0m
+[0;32mI (608049

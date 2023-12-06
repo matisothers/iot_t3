@@ -168,9 +168,9 @@ const MainView = () => {
   }
 
   const toggleGraph = () => {
-    const newESP = idDevice=== "oli" ? "ola" : "oli"
+    const newESP = idDevice=== ESP1 ? ESP2 : ESP1
     setIdDevice(newESP);
-    console.log("La nueva ESP es", newESP);
+    conslse.log("La nueva ESP es", newESP);
     console.log(data);
   }
 
