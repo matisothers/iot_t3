@@ -370,6 +370,7 @@
 /Users/mati/Desktop/iot_t3/codigo_esp/build/esp-idf/esp_wifi/CMakeFiles/install.dir
 /Users/mati/Desktop/iot_t3/codigo_esp/build/esp-idf/esp_wifi/CMakeFiles/install/local.dir
 /Users/mati/Desktop/iot_t3/codigo_esp/build/esp-idf/esp_wifi/CMakeFiles/install/strip.dir
+/Users/mati/Desktop/iot_t3/codigo_esp/build/esp-idf/bt/CMakeFiles/__idf_bt.dir
 /Users/mati/Desktop/iot_t3/codigo_esp/build/esp-idf/bt/CMakeFiles/edit_cache.dir
 /Users/mati/Desktop/iot_t3/codigo_esp/build/esp-idf/bt/CMakeFiles/rebuild_cache.dir
 /Users/mati/Desktop/iot_t3/codigo_esp/build/esp-idf/bt/CMakeFiles/list_install_components.dir
