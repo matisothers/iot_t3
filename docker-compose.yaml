@@ -39,6 +39,11 @@ services:
     restart: unless-stopped # Hace que el contenedor se reinicie a menos que se detenga manualmente
     ports:
       - 5432:5432 # Puerto de postgres
+  adminer:
+    image: adminer
+    restart: always
+    ports:
+      - 8080:8080
   # Aqui el resto de servicios
 volumes:
   postgres_data_iot:
