@@ -22,6 +22,9 @@ services:
       - ./frontend/vite.config.js:/app/vite.config.js
       - ./frontend/index.html:/app/index.html
       - ./frontend/package-lock.json:/app/package-lock.json
+    environment:
+      - BACKEND_URL=192.168.4.1
+      - BACKEND_PORT=8000
   db:
     image: postgres:15.2
     environment:
