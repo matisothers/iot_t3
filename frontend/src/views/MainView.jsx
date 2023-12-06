@@ -204,7 +204,7 @@ const MainView = () => {
     clearTable(p3_amp_data2);
     for (let i = 0; i < res.data.length; i++) {
       const element = res.data[i].__data__;
-      const id_device = element.id_device;
+      const id_device = element.header_mac;
       
       fillDataSet(id_device, setData, datos, datos2, element);
       fillDataSet(id_device, setP3FrecData, p3_frec_data, p3_frec_data2, element);
