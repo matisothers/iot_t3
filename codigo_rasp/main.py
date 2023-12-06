@@ -9,7 +9,6 @@ from server import Server
 def main():
     # crea las tablas x si acaso
     create_tables()
-    print("ASDASDASDASD")
 
     # loop
     while True: 
@@ -35,8 +34,4 @@ def main():
 
 
 
-
-    
-
-if __name__ == "__main__":
-    main()
+main()
