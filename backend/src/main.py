@@ -112,8 +112,8 @@ async def set_config(setting: SetSetting, database: PostgresqlDatabase = Depends
 @app.get("/data/")
 async def get_data():
     datos = Datos()
-    response_data_esp1 = list(datos.select().where(Datos.id_device == ESP1).order_by(Datos.id.desc()).limit(50))
-    response_data_esp2 = list(datos.select().where(Datos.id_device == ESP2).order_by(Datos.id.desc()).limit(50))
+    response_data_esp1 = list(datos.select().where(Datos.header_mac == ESP1).order_by(Datos.id.desc()).limit(50))
+    response_data_esp2 = list(datos.select().where(Datos.header_mac == ESP2).order_by(Datos.id.desc()).limit(50))
     return response_data_esp1 + response_data_esp2
 
 # funcion para testear noma
