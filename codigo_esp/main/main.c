@@ -59,12 +59,10 @@ void app_main(void){
         }
         else{
             // aca deberia correr cliente wi fi
-            run_client();
+            transport_layer = run_client();
         }
 
-        if(transport_layer == 1 || transport_layer == 2){
-            esp_deep_sleep_start();
-        }
+        
 
 
 
@@ -88,6 +86,10 @@ void app_main(void){
 
         // Close
         nvs_close(my_handle);
+
+        if(transport_layer == 1 || transport_layer == 2){
+            esp_deep_sleep_start();
+        }
     }
 
     printf("\n");
@@ -96,6 +98,5 @@ void app_main(void){
    
     printf("Restarting now.\n");
     fflush(stdout);
-    esp_restart();
-
+    
 }

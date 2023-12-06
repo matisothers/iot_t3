@@ -1,0 +1,409 @@
+[0;33m--- esp-idf-monitor 1.3.2 on /dev/cu.usbserial-0001 115200 ---[0m
+[0;33m--- Quit: Ctrl+] | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H ---[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40081570: call_start_cpu1 at /Users/mati/esp/esp-idf/components/esp_system/port/cpu_start.c:154
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40081570: call_start_cpu1 at /Users/mati/esp/esp-idf/components/esp_system/port/cpu_start.c:154
+[0m
+[1;31mNone[0m
+[0;33mWaiting for the device to reconnect[0m[0;33m[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40081570: call_start_cpu1 at /Users/mati/esp/esp-idf/components/esp_system/port/cpu_start.c:154
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[1;31mNone[0m
+[0;33mWaiting for the device to reconnect[0m[0;33m[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40081570: call_start_cpu1 at /Users/mati/esp/esp-idf/components/esp_system/port/cpu_start.c:154
+[0m
+[1;31mNone[0m
+[0;33mWaiting for the device to reconnect[0m[0;33m[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40081570: call_start_cpu1 at /Users/mati/esp/esp-idf/components/esp_system/port/cpu_start.c:154
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40081570: call_start_cpu1 at /Users/mati/esp/esp-idf/components/esp_system/port/cpu_start.c:154
+[0m
+[1;31mNone[0m
+[0;33mWaiting for the device to reconnect[0m[0;33m[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40081570: call_start_cpu1 at /Users/mati/esp/esp-idf/components/esp_system/port/cpu_start.c:154
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40081570: call_start_cpu1 at /Users/mati/esp/esp-idf/components/esp_system/port/cpu_start.c:154
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40081570: call_start_cpu1 at /Users/mati/esp/esp-idf/components/esp_system/port/cpu_start.c:154
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40081570: call_start_cpu1 at /Users/mati/esp/esp-idf/components/esp_system/port/cpu_start.c:154
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40081570: call_start_cpu1 at /Users/mati/esp/esp-idf/components/esp_system/port/cpu_start.c:154
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[1;31mNone[0m
+[0;33mWaiting for the device to reconnect[0m[0;33m[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40081570: call_start_cpu1 at /Users/mati/esp/esp-idf/components/esp_system/port/cpu_start.c:154
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40081570: call_start_cpu1 at /Users/mati/esp/esp-idf/components/esp_system/port/cpu_start.c:154
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40081570: call_start_cpu1 at /Users/mati/esp/esp-idf/components/esp_system/port/cpu_start.c:154
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40081570: call_start_cpu1 at /Users/mati/esp/esp-idf/components/esp_system/port/cpu_start.c:154
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40081570: call_start_cpu1 at /Users/mati/esp/esp-idf/components/esp_system/port/cpu_start.c:154
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40081570: call_start_cpu1 at /Users/mati/esp/esp-idf/components/esp_system/port/cpu_start.c:154
+[0m
+[1;31mNone[0m
+[0;33mWaiting for the device to reconnect[0m[0;33m[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40081570: call_start_cpu1 at /Users/mati/esp/esp-idf/components/esp_system/port/cpu_start.c:154
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40081570: call_start_cpu1 at /Users/mati/esp/esp-idf/components/esp_system/port/cpu_start.c:154
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40081570: call_start_cpu1 at /Users/mati/esp/esp-idf/components/esp_system/port/cpu_start.c:154
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40081570: call_start_cpu1 at /Users/mati/esp/esp-idf/components/esp_system/port/cpu_start.c:154
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40081570: call_start_cpu1 at /Users/mati/esp/esp-idf/components/esp_system/port/cpu_start.c:154
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40081570: call_start_cpu1 at /Users/mati/esp/esp-idf/components/esp_system/port/cpu_start.c:154
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40081570: call_start_cpu1 at /Users/mati/esp/esp-idf/components/esp_system/port/cpu_start.c:154
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40081570: call_start_cpu1 at /Users/mati/esp/esp-idf/components/esp_system/port/cpu_start.c:154
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40081570: call_start_cpu1 at /Users/mati/esp/esp-idf/components/esp_system/port/cpu_start.c:154
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40081570: call_start_cpu1 at /Users/mati/esp/esp-idf/components/esp_system/port/cpu_start.c:154
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40081570: call_start_cpu1 at /Users/mati/esp/esp-idf/components/esp_system/port/cpu_start.c:154
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40081570: call_start_cpu1 at /Users/mati/esp/esp-idf/components/esp_system/port/cpu_start.c:154
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40081570: call_start_cpu1 at /Users/mati/esp/esp-idf/components/esp_system/port/cpu_start.c:154
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40081570: call_start_cpu1 at /Users/mati/esp/esp-idf/components/esp_system/port/cpu_start.c:154
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40081570: call_start_cpu1 at /Users/mati/esp/esp-idf/components/esp_system/port/cpu_start.c:154
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40081570: call_start_cpu1 at /Users/mati/esp/esp-idf/components/esp_system/port/cpu_start.c:154
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40081570: call_start_cpu1 at /Users/mati/esp/esp-idf/components/esp_system/port/cpu_start.c:154
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40081570: call_start_cpu1 at /Users/mati/esp/esp-idf/components/esp_system/port/cpu_start.c:154
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40081570: call_start_cpu1 at /Users/mati/esp/esp-idf/components/esp_system/port/cpu_start.c:154
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40081570: call_start_cpu1 at /Users/mati/esp/esp-idf/components/esp_system/port/cpu_start.c:154
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40081570: call_start_cpu1 at /Users/mati/esp/esp-idf/components/esp_system/port/cpu_start.c:154
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40081570: call_start_cpu1 at /Users/mati/esp/esp-idf/components/esp_system/port/cpu_start.c:154
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40081570: call_start_cpu1 at /Users/mati/esp/esp-idf/components/esp_system/port/cpu_start.c:154
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40081570: call_start_cpu1 at /Users/mati/esp/esp-idf/components/esp_system/port/cpu_start.c:154
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40081570: call_start_cpu1 at /Users/mati/esp/esp-idf/components/esp_system/port/cpu_start.c:154
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[1;31mNone[0m
+[0;33mWaiting for the device to reconnect[0m[0;33m[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40081570: call_start_cpu1 at /Users/mati/esp/esp-idf/components/esp_system/port/cpu_start.c:154
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40081570: call_start_cpu1 at /Users/mati/esp/esp-idf/components/esp_system/port/cpu_start.c:154
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40081570: call_start_cpu1 at /Users/mati/esp/esp-idf/components/esp_system/port/cpu_start.c:154
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40081570: call_start_cpu1 at /Users/mati/esp/esp-idf/components/esp_system/port/cpu_start.c:154
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40081570: call_start_cpu1 at /Users/mati/esp/esp-idf/components/esp_system/port/cpu_start.c:154
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40081570: call_start_cpu1 at /Users/mati/esp/esp-idf/components/esp_system/port/cpu_start.c:154
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40081570: call_start_cpu1 at /Users/mati/esp/esp-idf/components/esp_system/port/cpu_start.c:154
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40081570: call_start_cpu1 at /Users/mati/esp/esp-idf/components/esp_system/port/cpu_start.c:154
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40081570: call_start_cpu1 at /Users/mati/esp/esp-idf/components/esp_system/port/cpu_start.c:154
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40081570: call_start_cpu1 at /Users/mati/esp/esp-idf/components/esp_system/port/cpu_start.c:154
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40081570: call_start_cpu1 at /Users/mati/esp/esp-idf/components/esp_system/port/cpu_start.c:154
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40081570: call_start_cpu1 at /Users/mati/esp/esp-idf/components/esp_system/port/cpu_start.c:154
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40081570: call_start_cpu1 at /Users/mati/esp/esp-idf/components/esp_system/port/cpu_start.c:154
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40081570: call_start_cpu1 at /Users/mati/esp/esp-idf/components/esp_system/port/cpu_start.c:154
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40081570: call_start_cpu1 at /Users/mati/esp/esp-idf/components/esp_system/port/cpu_start.c:154
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40081570: call_start_cpu1 at /Users/mati/esp/esp-idf/components/esp_system/port/cpu_start.c:154
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40081570: call_start_cpu1 at /Users/mati/esp/esp-idf/components/esp_system/port/cpu_start.c:154
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40081570: call_start_cpu1 at /Users/mati/esp/esp-idf/components/esp_system/port/cpu_start.c:154
+[0m
+[1;31mNone[0m
+[0;33mWaiting for the device to reconnect[0m[0;33m[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40081570: call_start_cpu1 at /Users/mati/esp/esp-idf/components/esp_system/port/cpu_start.c:154
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40081570: call_start_cpu1 at /Users/mati/esp/esp-idf/components/esp_system/port/cpu_start.c:154
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40081570: call_start_cpu1 at /Users/mati/esp/esp-idf/components/esp_system/port/cpu_start.c:154
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40081570: call_start_cpu1 at /Users/mati/esp/esp-idf/components/esp_system/port/cpu_start.c:154
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40081570: call_start_cpu1 at /Users/mati/esp/esp-idf/components/esp_system/port/cpu_start.c:154
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40081570: call_start_cpu1 at /Users/mati/esp/esp-idf/components/esp_system/port/cpu_start.c:154
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40081570: call_start_cpu1 at /Users/mati/esp/esp-idf/components/esp_system/port/cpu_start.c:154
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40081570: call_start_cpu1 at /Users/mati/esp/esp-idf/components/esp_system/port/cpu_start.c:154
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40081570: call_start_cpu1 at /Users/mati/esp/esp-idf/components/esp_system/port/cpu_start.c:154
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40081570: call_start_cpu1 at /Users/mati/esp/esp-idf/components/esp_system/port/cpu_start.c:154
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40081570: call_start_cpu1 at /Users/mati/esp/esp-idf/components/esp_system/port/cpu_start.c:154
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40081570: call_start_cpu1 at /Users/mati/esp/esp-idf/components/esp_system/port/cpu_start.c:154
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40081570: call_start_cpu1 at /Users/mati/esp/esp-idf/components/esp_system/port/cpu_start.c:154
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40081570: call_start_cpu1 at /Users/mati/esp/esp-idf/components/esp_system/port/cpu_start.c:154
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40081570: call_start_cpu1 at /Users/mati/esp/esp-idf/components/esp_system/port/cpu_start.c:154
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40081570: call_start_cpu1 at /Users/mati/esp/esp-idf/components/esp_system/port/cpu_start.c:154
+[0m
+[0;33m0x400d57af: syscall_not_implemented_aborts at /Users/mati/esp/esp-idf/components/newlib/syscalls.c:27
+[0m
+[0;33m0x40081c1a: panic_abort at /Users/mati/esp/esp-idf/components/esp_system/panic.c:452
+[0m
+[0;33m0x40092771: esp_system_abort at /Users/mati/esp/esp-idf/components/esp_system/port/esp_system_chip.c:84
+[0m
+[0;33m0x4009981a: abort at /Users/mati/esp/esp-idf/components/newlib/abort.c:38
+[0m
+[0;33m0x400d57af: syscall_not_implemented_aborts at /Users/mati/esp/esp-idf/components/newlib/syscalls.c:27
+[0m
+[0;33m0x4019212a: exit at /builds/idf/crosstool-NG/.build/HOST-x86_64-apple-darwin12/xtensa-esp32-elf/src/newlib/newlib/libc/stdlib/exit.c:64
+[0m
+[0;33m0x400d9665: Client__handle at /Users/mati/Desktop/iot_t3/codigo_esp/main/client.c:255 (discriminator 3)
+[0m
+[0;33m0x400d8d0d: run_client at /Users/mati/Desktop/iot_t3/codigo_esp/main/main_client.c:94
+[0m
+[0;33m0x400d7c2d: app_main at /Users/mati/Desktop/iot_t3/codigo_esp/main/main.c:62
+[0m
+[0;33m0x401abfff: main_task at /Users/mati/esp/esp-idf/components/freertos/app_startup.c:208 (discriminator 13)
+[0m
+[0;33m0x40095151: vPortTaskWrapper at /Users/mati/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40081570: call_start_cpu1 at /Users/mati/esp/esp-idf/components/esp_system/port/cpu_start.c:154
+[0m
+[0;33m0x400d57af: syscall_not_implemented_aborts at /Users/mati/esp/esp-idf/components/newlib/syscalls.c:27
+[0m
+[0;33m0x40081c1a: panic_abort at /Users/mati/esp/esp-idf/components/esp_system/panic.c:452
+[0m
+[0;33m0x40092771: esp_system_abort at /Users/mati/esp/esp-idf/components/esp_system/port/esp_system_chip.c:84
+[0m
+[0;33m0x4009981a: abort at /Users/mati/esp/esp-idf/components/newlib/abort.c:38
+[0m
+[0;33m0x400d57af: syscall_not_implemented_aborts at /Users/mati/esp/esp-idf/components/newlib/syscalls.c:27
+[0m
+[0;33m0x4019212a: exit at /builds/idf/crosstool-NG/.build/HOST-x86_64-apple-darwin12/xtensa-esp32-elf/src/newlib/newlib/libc/stdlib/exit.c:64
+[0m
+[0;33m0x400d9665: Client__handle at /Users/mati/Desktop/iot_t3/codigo_esp/main/client.c:255 (discriminator 3)
+[0m
+[0;33m0x400d8d0d: run_client at /Users/mati/Desktop/iot_t3/codigo_esp/main/main_client.c:94
+[0m
+[0;33m0x400d7c2d: app_main at /Users/mati/Desktop/iot_t3/codigo_esp/main/main.c:62
+[0m
+[0;33m0x401abfff: main_task at /Users/mati/esp/esp-idf/components/freertos/app_startup.c:208 (discriminator 13)
+[0m
+[0;33m0x40095151: vPortTaskWrapper at /Users/mati/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40081570: call_start_cpu1 at /Users/mati/esp/esp-idf/components/esp_system/port/cpu_start.c:154
+[0m
+[0;33m0x400d57af: syscall_not_implemented_aborts at /Users/mati/esp/esp-idf/components/newlib/syscalls.c:27
+[0m
+[0;33m0x40081c1a: panic_abort at /Users/mati/esp/esp-idf/components/esp_system/panic.c:452
+[0m
+[0;33m0x40092771: esp_system_abort at /Users/mati/esp/esp-idf/components/esp_system/port/esp_system_chip.c:84
+[0m
+[0;33m0x4009981a: abort at /Users/mati/esp/esp-idf/components/newlib/abort.c:38
+[0m
+[0;33m0x400d57af: syscall_not_implemented_aborts at /Users/mati/esp/esp-idf/components/newlib/syscalls.c:27
+[0m
+[0;33m0x4019212a: exit at /builds/idf/crosstool-NG/.build/HOST-x86_64-apple-darwin12/xtensa-esp32-elf/src/newlib/newlib/libc/stdlib/exit.c:64
+[0m
+[0;33m0x400d9665: Client__handle at /Users/mati/Desktop/iot_t3/codigo_esp/main/client.c:255 (discriminator 3)
+[0m
+[0;33m0x400d8d0d: run_client at /Users/mati/Desktop/iot_t3/codigo_esp/main/main_client.c:94
+[0m
+[0;33m0x400d7c2d: app_main at /Users/mati/Desktop/iot_t3/codigo_esp/main/main.c:62
+[0m
+[0;33m0x401abfff: main_task at /Users/mati/esp/esp-idf/components/freertos/app_startup.c:208 (discriminator 13)
+[0m
+[0;33m0x40095151: vPortTaskWrapper at /Users/mati/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40081570: call_start_cpu1 at /Users/mati/esp/esp-idf/components/esp_system/port/cpu_start.c:154
+[0m
+[0;33m0x400d57af: syscall_not_implemented_aborts at /Users/mati/esp/esp-idf/components/newlib/syscalls.c:27
+[0m
+[0;33m0x40081c1a: panic_abort at /U

@@ -1,0 +1,610 @@
+len:4
+ho 8 il 4 room 4
+load:0x40080404,len:3�ets Jun  8 2016 00:22:57
+
+rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:7080
+load:0x40078000,len:15584
+load:0x40080400,len:4
+ho 8 tail 4 room 4
+load:0x40080404,len:3876
+entry 0x4008064c
+[0;32mI (31) boot: ESP-IDF v5.1.1 2nd stage bootloader[0m
+[0;32mI (31) boot: compile time Dec  5 2023 21:04:06[0m
+[0;32mI (31) boot: Multicore bootloader[0m
+[0;32mI (35) boot: chip revision: v1.0[0m
+[0;32mI (39) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (44) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (48) boot.esp32: SPI Flash Size : 2MB[0m
+[0;32mI (53) boot: Enabling RNG early entropy source...[0m
+[0;32mI (58) boot: Partition Table:[0m
+[0;32mI (62) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (69) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (76) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (84) boot:  2 factory          factory app      00 00 00010000 00177000[0m
+[0;32mI (91) boot: End of partition table[0m
+[0;32mI (96) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=3666ch (222828) map[0m
+[0;32mI (184) esp_image: segment 1: paddr=00046694 vaddr=3ff80063 size=00008h (     8) load[0m
+[0;32mI (185) esp_image: segment 2: paddr=000466a4 vaddr=3ffbdb60 size=05570h ( 21872) load[0m
+[0;32mI (199) esp_image: segment 3: paddr=0004bc1c vaddr=40080000 size=043fch ( 17404) load[0m
+[0;32mI (206) esp_image: segment 4: paddr=00050020 vaddr=400d0020 size=dde38h (908856) map[0m
+[0;32mI (535) esp_image: segment 5: paddr=0012de60 vaddr=400843fc size=1b4c4h (111812) load[0m
+[0;32mI (582) esp_image: segment 6: paddr=0014932c vaddr=400c0000 size=00064h (   100) load[0m
+[0;32mI (598) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (598) boot: Disabling RNG early entropy source...[0m
+[0;32mI (610) cpu_start: Multicore app[0m
+[0;32mI (610) cpu_start: Pro cpu up.[0m
+[0;32mI (610) cpu_start: Starting app cpu, entry point is 0x40081570[0m
+[0;32mI (0) cpu_start: App cpu up.[0m
+[0;32mI (630) cpu_start: Pro cpu start user code[0m
+[0;32mI (630) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (630) cpu_start: Application information:[0m
+[0;32mI (635) cpu_start: Project name:     nvs_rw_value[0m
+[0;32mI (640) cpu_start: App version:      62a9405-dirty[0m
+[0;32mI (646) cpu_start: Compile time:     Dec  6 2023 12:19:37[0m
+[0;32mI (652) cpu_start: ELF file SHA256:  ccd9b803...[0m
+[0;32mI (657) cpu_start: ESP-IDF:          v5.1.1[0m
+[0;32mI (662) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (667) cpu_start: Max chip rev:     v3.99 [0m
+[0;32mI (672) cpu_start: Chip rev:         v1.0[0m
+[0;32mI (677) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (684) heap_init: At 3FFAFF10 len 000000F0 (0 KiB): DRAM[0m
+[0;32mI (690) heap_init: At 3FFB6388 len 00001C78 (7 KiB): DRAM[0m
+[0;32mI (696) heap_init: At 3FFB9A20 len 00004108 (16 KiB): DRAM[0m
+[0;32mI (702) heap_init: At 3FFCB128 len 00014ED8 (83 KiB): DRAM[0m
+[0;32mI (708) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (714) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (721) heap_init: At 4009F8C0 len 00000740 (1 KiB): IRAM[0m
+[0;32mI (729) spi_flash: detected chip: generic[0m
+[0;32mI (732) spi_flash: flash io: dio[0m
+[0;33mW (736) spi_flash: Detected size(4096k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;32mI (749) coexist: coex firmware version: 80b0d89[0m
+[0;32mI (755) app_start: Starting scheduler on CPU0[0m
+[0;32[0;32mI (759) app_start: Starting scheduler on CPU1[0m
+mI (759) main_task: Started on CPU0[0m
+[0;32mI (769) main_task: Calling app_main()[0m
+
+Opening Non-Volatile Storage (NVS) handle... Done
+Reading restart counter from NVS ... The value is not initialized yet!
+[0;32mI (799) BTDM_INIT: BT controller compile version [946b762][0m
+[0;32mI (799) BTDM_INIT: Bluetooth MAC: ac:67:b2:3c:12:96[0m
+[0;32mI (809) phy_init: phy_version 4670,719f9f6,Feb 18 2021,17:07:07[0m
+[0;33mW (809) phy_init: failed to load RF calibration data (0x1102), falling back to full calibration[0m
+[0;32mI (1389) GATTS_DEMO: REGISTER_APP_EVT, status 0, app_id 0
+[0m
+[0;32mI (1429) GATTS_DEMO: CREATE_SERVICE_EVT, status 0,  service_handle 40
+[0m
+[0;32mI (1449) GATTS_DEMO: SERVICE_START_EVT, status 0, service_handle 40
+[0m
+[0;32mI (1449) GATTS_DEMO: ADD_CHAR_EVT, status 0,  attr_handle 42, service_handle 40
+[0m
+[0;32mI (1459) GATTS_DEMO: the gatts demo char length = 3
+[0m
+[0;32mI (1459) GATTS_DEMO: prf_char[0] =11
+[0m
+[0;32mI (1469) GATTS_DEMO: prf_char[1] =22
+[0m
+[0;32mI (1469) GATTS_DEMO: prf_char[2] =33
+[0m
+[0;32mI (1469) GATTS_DEMO: ADD_DESCR_EVT, status 0, attr_handle 43, service_handle 40
+[0m
+[0;32mI (3849) GATTS_DEMO: ESP_GATTS_CONNECT_EVT, conn_id 0, remote 00:e0:4c:ab:47:03:[0m
+[0;32mI (3859) GATTS_DEMO: ESP_GATTS_MTU_EVT, MTU 500[0m
+[0;32mI (4379) GATTS_DEMO: update connection params status = 0, min_int = 16, max_int = 32,conn_int = 30,latency = 0, timeout = 400[0m
+ets Jun  8 2016 00:22:57
+
+rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:7080
+load:0x40078000,len:15584
+load:0x40080400,len:4
+ho 8 tail 4 room 4
+load:0x40080404,len:3876
+entry 0x4008064c
+[0;32mI (31) boot: ESP-IDF v5.1.1 2nd stage bootloader[0m
+[0;32mI (31) boot: compile time Dec  5 2023 21:04:06[0m
+[0;32mI (31) boot: Multicore bootloader[0m
+[0;32mI (35) boot: chip revision: v1.0[0m
+[0;32mI (39) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (44) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (48) boot.esp32: SPI Flash Size : 2MB[0m
+[0;32mI (53) boot: Enabling RNG early entropy source...[0m
+[0;32mI (58) boot: Partition Table:[0m
+[0;32mI (62) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (69) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (76) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (84) boot:  2 factory          factory app      00 00 00010000 00177000[0m
+[0;32mI (91) boot: End of partition table[0m
+[0;32mI (96) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=3666ch (222828) map[0m
+[0;32mI (184) esp_image: segment 1: paddr=00046694 vaddr=3ff80063 size=00008h (     8) load[0m
+[0;32mI (185) esp_image: segment 2: paddr=000466a4 vaddr=3ffbdb60 size=05570h ( 21872) load[0m
+[0;32mI (199) esp_image: segment 3: paddr=0004bc1c vaddr=40080000 size=043fch ( 17404) load[0m
+[0;32mI (206) esp_image: segment 4: paddr=00050020 vaddr=400d0020 size=dde38h (908856) map[0m
+[0;32mI (535) esp_image: segment 5: paddr=0012de60 vaddr=400843fc size=1b4c4h (111812) load[0m
+[0;32mI (582) esp_image: segment 6: paddr=0014932c vaddr=400c0000 size=00064h (   100) load[0m
+[0;32mI (598) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (598) boot: Disabling RNG early entropy source...[0m
+[0;32mI (610) cpu_start: Multicore app[0m
+[0;32mI (610) cpu_start: Pro cpu up.[0m
+[0;32mI (610) cpu_start: Starting app cpu, entry point is 0x40081570[0m
+[0;32mI (0) cpu_start: App cpu up.[0m
+[0;32mI (630) cpu_start: Pro cpu start user code[0m
+[0;32mI (630) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (630) cpu_start: Application information:[0m
+[0;32mI (635) cpu_start: Project name:     nvs_rw_value[0m
+[0;32mI (640) cpu_start: App version:      62a9405-dirty[0m
+[0;32mI (646) cpu_start: Compile time:     Dec  6 2023 12:19:37[0m
+[0;32mI (652) cpu_start: ELF file SHA256:  ccd9b803...[0m
+[0;32mI (657) cpu_start: ESP-IDF:          v5.1.1[0m
+[0;32mI (662) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (667) cpu_start: Max chip rev:     v3.99 [0m
+[0;32mI (672) cpu_start: Chip rev:         v1.0[0m
+[0;32mI (677) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (684) heap_init: At 3FFAFF10 len 000000F0 (0 KiB): DRAM[0m
+[0;32mI (690) heap_init: At 3FFB6388 len 00001C78 (7 KiB): DRAM[0m
+[0;32mI (696) heap_init: At 3FFB9A20 len 00004108 (16 KiB): DRAM[0m
+[0;32mI (702) heap_init: At 3FFCB128 len 00014ED8 (83 KiB): DRAM[0m
+[0;32mI (708) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (714) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (721) heap_init: At 4009F8C0 len 00000740 (1 KiB): IRAM[0m
+[0;32mI (729) spi_flash: detected chip: generic[0m
+[0;32mI (732) spi_flash: flash io: dio[0m
+[0;33mW (735) spi_flash: Detected size(4096k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;32mI (749) coexist: coex firmware version: 80b0d89[0m
+[0;32mI (755) app_start: Starting scheduler on CPU0[0m
+[0;32[0;32mI (759) app_start: Starting scheduler on CPU1[0m
+mI (759) main_task: Started on CPU0[0m
+[0;32mI (769) main_task: Calling app_main()[0m
+
+Opening Non-Volatile Storage (NVS) handle... Done
+Reading restart counter from NVS ... The value is not initialized yet!
+[0;32mI (789) BTDM_INIT: BT controller compile version [946b762][0m
+[0;32mI (799) BTDM_INIT: Bluetooth MAC: ac:67:b2:3c:12:96[0m
+[0;32mI (809) phy_init: phy_version 4670,719f9f6,Feb 18 2021,17:07:07[0m
+[0;32mI (1239) GATTS_DEMO: REGISTER_APP_EVT, status 0, app_id 0
+[0m
+[0;32mI (1249) GATTS_DEMO: CREATE_SERVICE_EVT, status 0,  service_handle 40
+[0m
+[0;32mI (1269) GATTS_DEMO: SERVICE_START_EVT, status 0, service_handle 40
+[0m
+[0;32mI (1269) GATTS_DEMO: ADD_CHAR_EVT, status 0,  attr_handle 42, service_handle 40
+[0m
+[0;32mI (1269) GATTS_DEMO: the gatts demo char length = 3
+[0m
+[0;32mI (1279) GATTS_DEMO: prf_char[0] =11
+[0m
+[0;32mI (1279) GATTS_DEMO: prf_char[1] =22
+[0m
+[0;32mI (1289) GATTS_DEMO: prf_char[2] =33
+[0m
+[0;32mI (1289) GATTS_DEMO: ADD_DESCR_EVT, status 0, attr_handle 43, service_handle 40
+[0m
+[0;32mI (9489) GATTS_DEMO: ESP_GATTS_CONNECT_EVT, conn_id 0, remote 00:e0:4c:ab:47:03:[0m
+[0;32mI (9499) GATTS_DEMO: ESP_GATTS_MTU_EVT, MTU 500[0m
+[0;32mI (11499) GATTS_DEMO: update connection params status = 16, min_int = 16, max_int = 32,conn_int = 30,latency = 0, timeout = 400[0m
+[0;33mW (12029) BT_HCI: hcif disc complete: hdl 0x0, rsn 0x13[0m
+[0;32mI (12029) GATTS_DEMO: ESP_GATTS_DISCONNECT_EVT, disconnect reason 0x13[0m
+[0;32mI (17719) GATTS_DEMO: ESP_GATTS_CONNECT_EVT, conn_id 0, remote 00:e0:4c:ab:47:03:[0m
+[0;32mI (17719) GATTS_DEMO: ESP_GATTS_MTU_EVT, MTU 500[0m
+[0;32mI (19729) GATTS_DEMO: update connection params status = 16, min_int = 16, max_int = 32,conn_int = 30,latency = 0, timeout = 400[0m
+[0;33mW (21049) BT_HCI: hcif disc complete: hdl 0x0, rsn 0x13[0m
+[0;32mI (21049) GATTS_DEMO: ESP_GATTS_DISCONNECT_EVT, disconnect reason 0x13[0m
+[0;32mI (21579) GATTS_DEMO: ESP_GATTS_CONNECT_EVT, conn_id 0, remote 00:e0:4c:ab:47:03:[0m
+[0;32mI (21589) GATTS_DEMO: ESP_GATTS_MTU_EVT, MTU 500[0m
+[0;32mI (23589) GATTS_DEMO: update connection params status = 16, min_int = 16, max_int = 32,conn_int = 30,latency = 0, timeout = 400[0m
+[0;33mW (24049) BT_HCI: hcif disc complete: hdl 0x0, rsn 0x13[0m
+[0;32mI (24049) GATTS_DEMO: ESP_GATTS_DISCONNECT_EVT, disconnect reason 0x13[0m
+[0;32mI (40749) GATTS_DEMO: ESP_GATTS_CONNECT_EVT, conn_id 0, remote 00:e0:4c:ab:47:03:[0m
+[0;32mI (40759) GATTS_DEMO: ESP_GATTS_MTU_EVT, MTU 500[0m
+ets Jun  8 2016 00:22:57
+
+rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:7080
+load:0x40078000,len:15584
+load:0x40080400,len:4
+ho 8 tail 4 room 4
+load:0x40080404,len:3876
+entry 0x4008064c
+[0;32mI (31) boot: ESP-IDF v5.1.1 2nd stage bootloader[0m
+[0;32mI (31) boot: compile time Dec  5 2023 21:04:06[0m
+[0;32mI (31) boot: Multicore bootloader[0m
+[0;32mI (35) boot: chip revision: v1.0[0m
+[0;32mI (39) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (44) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (48) boot.esp32: SPI Flash Size : 2MB[0m
+[0;32mI (53) boot: Enabling RNG early entropy source...[0m
+[0;32mI (58) boot: Partition Table:[0m
+[0;32mI (62) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (69) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (76) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (84) boot:  2 factory          factory app      00 00 00010000 00177000[0m
+[0;32mI (91) boot: End of partition table[0m
+[0;32mI (95) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=3666ch (222828) map[0m
+[0;32mI (184) esp_image: segment 1: paddr=00046694 vaddr=3ff80063 size=00008h (     8) load[0m
+[0;32mI (185) esp_image: segment 2: paddr=000466a4 vaddr=3ffbdb60 size=05570h ( 21872) load[0m
+[0;32mI (199) esp_image: segment 3: paddr=0004bc1c vaddr=40080000 size=043fch ( 17404) load[0m
+[0;32mI (206) esp_image: segment 4: paddr=00050020 vaddr=400d0020 size=dde38h (908856) map[0m
+[0;32mI (535) esp_image: segment 5: paddr=0012de60 vaddr=400843fc size=1b4c4h (111812) load[0m
+[0;32mI (582) esp_image: segment 6: paddr=0014932c vaddr=400c0000 size=00064h (   100) load[0m
+[0;32mI (598) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (598) boot: Disabling RNG early entropy source...[0m
+[0;32mI (610) cpu_start: Multicore app[0m
+[0;32mI (610) cpu_start: Pro cpu up.[0m
+[0;32mI (610) cpu_start: Starting app cpu, entry point is 0x40081570[0m
+[0;32mI (0) cpu_start: App cpu up.[0m
+[0;32mI (630) cpu_start: Pro cpu start user code[0m
+[0;32mI (630) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (630) cpu_start: Application information:[0m
+[0;32mI (635) cpu_start: Project name:     nvs_rw_value[0m
+[0;32mI (640) cpu_start: App version:      62a9405-dirty[0m
+[0;32mI (646) cpu_start: Compile time:     Dec  6 2023 12:19:37[0m
+[0;32mI (652) cpu_start: ELF file SHA256:  ccd9b803...[0m
+[0;32mI (657) cpu_start: ESP-IDF:          v5.1.1[0m
+[0;32mI (662) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (667) cpu_start: Max chip rev:     v3.99 [0m
+[0;32mI (672) cpu_start: Chip rev:         v1.0[0m
+[0;32mI (677) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (684) heap_init: At 3FFAFF10 len 000000F0 (0 KiB): DRAM[0m
+[0;32mI (690) heap_init: At 3FFB6388 len 00001C78 (7 KiB): DRAM[0m
+[0;32mI (696) heap_init: At 3FFB9A20 len 00004108 (16 KiB): DRAM[0m
+[0;32mI (702) heap_init: At 3FFCB128 len 00014ED8 (83 KiB): DRAM[0m
+[0;32mI (708) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (714) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (721) heap_init: At 4009F8C0 len 00000740 (1 KiB): IRAM[0m
+[0;32mI (728) spi_flash: detected chip: generic[0m
+[0;32mI (732) spi_flash: flash io: dio[0m
+[0;33mW (735) spi_flash: Detected size(4096k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;32mI (749) coexist: coex firmware version: 80b0d89[0m
+[0;32mI (754) app_start: Starting scheduler on CPU0[0m
+[0;32[0;32mI (759) app_start: Starting scheduler on CPU1[0m
+mI (759) main_task: Started on CPU0[0m
+[0;32mI (769) main_task: Calling app_main()[0m
+
+Opening Non-Volatile Storage (NVS) handle... Done
+Reading restart counter from NVS ... The value is not initialized yet!
+[0;32mI (789) BTDM_INIT: BT controller compile version [946b762][0m
+[0;32mI (799) BTDM_INIT: Bluetooth MAC: ac:67:b2:3c:12:96[0m
+[0;32mI (809) phy_init: phy_version 4670,719f9f6,Feb 18 2021,17:07:07[0m
+[0;32mI (1239) GATTS_DEMO: REGISTER_APP_EVT, status 0, app_id 0
+[0m
+[0;32mI (1249) GATTS_DEMO: CREATE_SERVICE_EVT, status 0,  service_handle 40
+[0m
+[0;32mI (1269) GATTS_DEMO: SERVICE_START_EVT, status 0, service_handle 40
+[0m
+[0;32mI (1269) GATTS_DEMO: ADD_CHAR_EVT, status 0,  attr_handle 42, service_handle 40
+[0m
+[0;32mI (1279) GATTS_DEMO: the gatts demo char length = 3
+[0m
+[0;32mI (1279) GATTS_DEMO: prf_char[0] =11
+[0m
+[0;32mI (1289) GATTS_DEMO: prf_char[1] =22
+[0m
+[0;32mI (1289) GATTS_DEMO: prf_char[2] =33
+[0m
+[0;32mI (1299) GATTS_DEMO: ADD_DESCR_EVT, status 0, attr_handle 43, service_handle 40
+[0m
+[0;32mI (7479) GATTS_DEMO: ESP_GATTS_CONNECT_EVT, conn_id 0, remote 00:e0:4c:ab:47:03:[0m
+[0;32mI (7479) GATTS_DEMO: ESP_GATTS_MTU_EVT, MTU 500[0m
+[0;32mI (9489) GATTS_DEMO: update connection params status = 16, min_int = 16, max_int = 32,conn_int = 30,latency = 0, timeout = 400[0m
+[0;33mW (10579) BT_HCI: hcif disc complete: hdl 0x0, rsn 0x13[0m
+[0;32mI (10579) GATTS_DEMO: ESP_GATTS_DISCONNECT_EVT, disconnect reason 0x13[0m
+[0;32mI (11049) GATTS_DEMO: ESP_GATTS_CONNECT_EVT, conn_id 0, remote 00:e0:4c:ab:47:03:[0m
+[0;32mI (11049) GATTS_DEMO: ESP_GATTS_MTU_EVT, MTU 500[0m
+[0;32mI (13059) GATTS_DEMO: update connection params status = 16, min_int = 16, max_int = 32,conn_int = 30,latency = 0, timeout = 400[0m
+[0;33mW (14599) BT_HCI: hcif disc complete: hdl 0x0, rsn 0x13[0m
+[0;32mI (14599) GATTS_DEMO: ESP_GATTS_DISCONNECT_EVT, disconnect reason 0x13[0m
+[0;32mI (20179) GATTS_DEMO: ESP_GATTS_CONNECT_EVT, conn_id 0, remote 00:e0:4c:ab:47:03:[0m
+[0;32mI (20189) GATTS_DEMO: ESP_GATTS_MTU_EVT, MTU 500[0m
+[0;32mI (22189) GATTS_DEMO: update connection params status = 16, min_int = 16, max_int = 32,conn_int = 30,latency = 0, timeout = 400[0m
+[0;33mW (23549) BT_HCI: hcif disc complete: hdl 0x0, rsn 0x13[0m
+[0;32mI (23549) GATTS_DEMO: ESP_GATTS_DISCONNECT_EVT, disconnect reason 0x13[0m
+[0;32mI (28999) GATTS_DEMO: ESP_GATTS_CONNECT_EVT, conn_id 0, remote 00:e0:4c:ab:47:03:[0m
+[0;32mI (29029) GATTS_DEMO: ESP_GATTS_MTU_EVT, MTU 500[0m
+[0;32mI (30999) GATTS_DEMO: update connection params status = 16, min_int = 16, max_int = 32,conn_int = 30,latency = 0, timeout = 400[0m
+[0;33mW (31539) BT_HCI: hcif disc complete: hdl 0x0, rsn 0x13[0m
+[0;32mI (31539) GATTS_DEMO: ESP_GATTS_DISCONNECT_EVT, disconnect reason 0x13[0m
+[0;32mI (43409) GATTS_DEMO: ESP_GATTS_CONNECT_EVT, conn_id 0, remote 00:e0:4c:ab:47:03:[0m
+[0;32mI (43409) GATTS_DEMO: ESP_GATTS_MTU_EVT, MTU 500[0m
+[0;32mI (45409) GATTS_DEMO: update connection params status = 16, min_int = 16, max_int = 32,conn_int = 30,latency = 0, timeout = 400[0m
+[0;33mW (46549) BT_HCI: hcif disc complete: hdl 0x0, rsn 0x13[0m
+[0;32mI (46549) GATTS_DEMO: ESP_GATTS_DISCONNECT_EVT, disconnect reason 0x13[0m
+[0;32mI (47069) GATTS_DEMO: ESP_GATTS_CONNECT_EVT, conn_id 0, remote 00:e0:4c:ab:47:03:[0m
+[0;32mI (47069) GATTS_DEMO: ESP_GATTS_MTU_EVT, MTU 500[0m
+[0;32mI (49069) GATTS_DEMO: update connection params status = 16, min_int = 16, max_int = 32,conn_int = 30,latency = 0, timeout = 400[0m
+[0;33mW (49529) BT_HCI: hcif disc complete: hdl 0x0, rsn 0x13[0m
+[0;32mI (49529) GATTS_DEMO: ESP_GATTS_DISCONNECT_EVT, disconnect reason 0x13[0m
+[0;32mI (66009) GATTS_DEMO: ESP_GATTS_CONNECT_EVT, conn_id 0, remote 00:e0:4c:ab:47:03:[0m
+[0;32mI (66009) GATTS_DEMO: ESP_GATTS_MTU_EVT, MTU 500[0m
+[0;32mI (68019) GATTS_DEMO: update connection params status = 16, min_int = 16, max_int = 32,conn_int = 30,latency = 0, timeout = 400[0m
+[0;33mW (68549) BT_HCI: hcif disc complete: hdl 0x0, rsn 0x13[0m
+[0;32mI (68549) GATTS_DEMO: ESP_GATTS_DISCONNECT_EVT, disconnect reason 0x13[0m
+[0;32mI (69209) GATTS_DEMO: ESP_GATTS_CONNECT_EVT, conn_id 0, remote 00:e0:4c:ab:47:03:[0m
+[0;32mI (69209) GATTS_DEMO: ESP_GATTS_MTU_EVT, MTU 500[0m
+[0;32mI (71219) GATTS_DEMO: update connection params status = 16, min_int = 16, max_int = 32,conn_int = 30,latency = 0, timeout = 400[0m
+[0;33mW (71559) BT_HCI: hcif disc complete: hdl 0x0, rsn 0x13[0m
+[0;32mI (71559) GATTS_DEMO: ESP_GATTS_DISCONNECT_EVT, disconnect reason 0x13[0m
+[0;32mI (78149) GATTS_DEMO: ESP_GATTS_CONNECT_EVT, conn_id 0, remote 00:e0:4c:ab:47:03:[0m
+[0;32mI (78149) GATTS_DEMO: ESP_GATTS_MTU_EVT, MTU 500[0m
+[0;32mI (80159) GATTS_DEMO: update connection params status = 16, min_int = 16, max_int = 32,conn_int = 30,latency = 0, timeout = 400[0m
+[0;33mW (80549) BT_HCI: hcif disc complete: hdl 0x0, rsn 0x13[0m
+[0;32mI (80549) GATTS_DEMO: ESP_GATTS_DISCONNECT_EVT, disconnect reason 0x13[0m
+[0;32mI (86199) GATTS_DEMO: ESP_GATTS_CONNECT_EVT, conn_id 0, remote 00:e0:4c:ab:47:03:[0m
+[0;32mI (86199) GATTS_DEMO: ESP_GATTS_MTU_EVT, MTU 500[0m
+ets Jun  8 2016 00:22:57
+
+rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:7080
+load:0x40078000,len:15584
+load:0x40080400,len:4
+ho 8 tail 4 room 4
+load:0x40080404,len:3876
+entry 0x4008064c
+[0;32mI (31) boot: ESP-IDF v5.1.1 2nd stage bootloader[0m
+[0;32mI (31) boot: compile time Dec  5 2023 21:04:06[0m
+[0;32mI (31) boot: Multicore bootloader[0m
+[0;32mI (35) boot: chip revision: v1.0[0m
+[0;32mI (39) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (43) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (48) boot.esp32: SPI Flash Size : 2MB[0m
+[0;32mI (53) boot: Enabling RNG early entropy source...[0m
+[0;32mI (58) boot: Partition Table:[0m
+[0;32mI (62) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (69) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (76) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (84) boot:  2 factory          factory app      00 00 00010000 00177000[0m
+[0;32mI (91) boot: End of partition table[0m
+[0;32mI (95) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=3666ch (222828) map[0m
+[0;32mI (184) esp_image: segment 1: paddr=00046694 vaddr=3ff80063 size=00008h (     8) load[0m
+[0;32mI (185) esp_image: segment 2: paddr=000466a4 vaddr=3ffbdb60 size=05570h ( 21872) load[0m
+[0;32mI (199) esp_image: segment 3: paddr=0004bc1c vaddr=40080000 size=043fch ( 17404) load[0m
+[0;32mI (206) esp_image: segment 4: paddr=00050020 vaddr=400d0020 size=dde38h (908856) map[0m
+[0;32mI (535) esp_image: segment 5: paddr=0012de60 vaddr=400843fc size=1b4c4h (111812) load[0m
+[0;32mI (582) esp_image: segment 6: paddr=0014932c vaddr=400c0000 size=00064h (   100) load[0m
+[0;32mI (598) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (598) boot: Disabling RNG early entropy source...[0m
+[0;32mI (610) cpu_start: Multicore app[0m
+[0;32mI (610) cpu_start: Pro cpu up.[0m
+[0;32mI (610) cpu_start: Starting app cpu, entry point is 0x40081570[0m
+[0;32mI (0) cpu_start: App cpu up.[0m
+[0;32mI (630) cpu_start: Pro cpu start user code[0m
+[0;32mI (630) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (630) cpu_start: Application information:[0m
+[0;32mI (635) cpu_start: Project name:     nvs_rw_value[0m
+[0;32mI (640) cpu_start: App version:      62a9405-dirty[0m
+[0;32mI (646) cpu_start: Compile time:     Dec  6 2023 12:19:37[0m
+[0;32mI (652) cpu_start: ELF file SHA256:  ccd9b803...[0m
+[0;32mI (657) cpu_start: ESP-IDF:          v5.1.1[0m
+[0;32mI (662) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (667) cpu_start: Max chip rev:     v3.99 [0m
+[0;32mI (672) cpu_start: Chip rev:         v1.0[0m
+[0;32mI (676) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (684) heap_init: At 3FFAFF10 len 000000F0 (0 KiB): DRAM[0m
+[0;32mI (690) heap_init: At 3FFB6388 len 00001C78 (7 KiB): DRAM[0m
+[0;32mI (696) heap_init: At 3FFB9A20 len 00004108 (16 KiB): DRAM[0m
+[0;32mI (702) heap_init: At 3FFCB128 len 00014ED8 (83 KiB): DRAM[0m
+[0;32mI (708) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (714) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (721) heap_init: At 4009F8C0 len 00000740 (1 KiB): IRAM[0m
+[0;32mI (728) spi_flash: detected chip: generic[0m
+[0;32mI (731) spi_flash: flash io: dio[0m
+[0;33mW (735) spi_flash: Detected size(4096k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;32mI (749) coexist: coex firmware version: 80b0d89[0m
+[0;32mI (754) app_start: Starting scheduler on CPU0[0m
+[0;32[0;32mI (759) app_start: Starting scheduler on CPU1[0m
+mI (759) main_task: Started on CPU0[0m
+[0;32mI (769) main_task: Calling app_main()[0m
+
+Opening Non-Volatile Storage (NVS) handle... Done
+Reading restart counter from NVS ... The value is not initialized yet!
+[0;32mI (789) BTDM_INIT: BT controller compile version [946b762][0m
+[0;32mI (799) BTDM_INIT: Bluetooth MAC: ac:67:b2:3c:12:96[0m
+[0;32mI (809) phy_init: phy_version 4670,719f9f6,Feb 18 2021,17:07:07[0m
+[0;32mI (1239) GATTS_DEMO: REGISTER_APP_EVT, status 0, app_id 0
+[0m
+[0;32mI (1249) GATTS_DEMO: CREATE_SERVICE_EVT, status 0,  service_handle 40
+[0m
+[0;32mI (1269) GATTS_DEMO: SERVICE_START_EVT, status 0, service_handle 40
+[0m
+[0;32mI (1269) GATTS_DEMO: ADD_CHAR_EVT, status 0,  attr_handle 42, service_handle 40
+[0m
+[0;32mI (1279) GATTS_DEMO: the gatts demo char length = 3
+[0m
+[0;32mI (1279) GATTS_DEMO: prf_char[0] =11
+[0m
+[0;32mI (1289) GATTS_DEMO: prf_char[1] =22
+[0m
+[0;32mI (1289) GATTS_DEMO: prf_char[2] =33
+[0m
+[0;32mI (1299) GATTS_DEMO: ADD_DESCR_EVT, status 0, attr_handle 43, service_handle 40
+[0m
+[0;32mI (2369) GATTS_DEMO: ESP_GATTS_CONNECT_EVT, conn_id 0, remote 00:e0:4c:ab:47:03:[0m
+[0;32mI (2369) GATTS_DEMO: ESP_GATTS_MTU_EVT, MTU 500[0m
+[0;32mI (4379) GATTS_DEMO: update connection params status = 16, min_int = 16, max_int = 32,conn_int = 30,latency = 0, timeout = 400[0m
+[0;33mW (4759) BT_HCI: hcif disc complete: hdl 0x0, rsn 0x13[0m
+[0;32mI (4759) GATTS_DEMO: ESP_GATTS_DISCONNECT_EVT, disconnect reason 0x13[0m
+[0;32mI (5469) GATTS_DEMO: ESP_GATTS_CONNECT_EVT, conn_id 0, remote 00:e0:4c:ab:47:03:[0m
+[0;32mI (5499) GATTS_DEMO: ESP_GATTS_MTU_EVT, MTU 500[0m
+[0;32mI (7469) GATTS_DEMO: update connection params status = 16, min_int = 16, max_int = 32,conn_int = 30,latency = 0, timeout = 400[0m
+[0;33mW (7749) BT_HCI: hcif disc complete: hdl 0x0, rsn 0x13[0m
+[0;32mI (7749) GATTS_DEMO: ESP_GATTS_DISCONNECT_EVT, disconnect reason 0x13[0m
+[0;32mI (8799) GATTS_DEMO: ESP_GATTS_CONNECT_EVT, conn_id 0, remote 00:e0:4c:ab:47:03:[0m
+[0;32mI (8799) GATTS_DEMO: ESP_GATTS_MTU_EVT, MTU 500[0m
+[0;32mI (10809) GATTS_DEMO: update connection params status = 16, min_int = 16, max_int = 32,conn_int = 30,latency = 0, timeout = 400[0m
+[0;33mW (11749) BT_HCI: hcif disc complete: hdl 0x0, rsn 0x13[0m
+[0;32mI (11749) GATTS_DEMO: ESP_GATTS_DISCONNECT_EVT, disconnect reason 0x13[0m
+[0;32mI (12719) GATTS_DEMO: ESP_GATTS_CONNECT_EVT, conn_id 0, remote 00:e0:4c:ab:47:03:[0m
+[0;32mI (12719) GATTS_DEMO: ESP_GATTS_MTU_EVT, MTU 500[0m
+[0;32mI (14719) GATTS_DEMO: update connection params status = 16, min_int = 16, max_int = 32,conn_int = 30,latency = 0, timeout = 400[0m
+[0;33mW (15739) BT_HCI: hcif disc complete: hdl 0x0, rsn 0x13[0m
+[0;32mI (15739) GATTS_DEMO: ESP_GATTS_DISCONNECT_EVT, disconnect reason 0x13[0m
+[0;32mI (16569) GATTS_DEMO: ESP_GATTS_CONNECT_EVT, conn_id 0, remote 00:e0:4c:ab:47:03:[0m
+[0;32mI (16579) GATTS_DEMO: ESP_GATTS_MTU_EVT, MTU 500[0m
+[0;32mI (18579) GATTS_DEMO: update connection params status = 16, min_int = 16, max_int = 32,conn_int = 30,latency = 0, timeout = 400[0m
+[0;33mW (18739) BT_HCI: hcif disc complete: hdl 0x0, rsn 0x13[0m
+[0;32mI (18739) GATTS_DEMO: ESP_GATTS_DISCONNECT_EVT, disconnect reason 0x13[0m
+[0;32mI (25199) GATTS_DEMO: ESP_GATTS_CONNECT_EVT, conn_id 0, remote 00:e0:4c:ab:47:03:[0m
+[0;32mI (25209) GATTS_DEMO: ESP_GATTS_MTU_EVT, MTU 500[0m
+[0;32mI (27209) GATTS_DEMO: update connection params status = 16, min_int = 16, max_int = 32,conn_int = 30,latency = 0, timeout = 400[0m
+[0;33mW (27739) BT_HCI: hcif disc complete: hdl 0x0, rsn 0x13[0m
+[0;32mI (27739) GATTS_DEMO: ESP_GATTS_DISCONNECT_EVT, disconnect reason 0x13[0m
+[0;32mI (28419) GATTS_DEMO: ESP_GATTS_CONNECT_EVT, conn_id 0, remote 00:e0:4c:ab:47:03:[0m
+[0;32mI (28419) GATTS_DEMO: ESP_GATTS_MTU_EVT, MTU 500[0m
+[0;32mI (30429) GATTS_DEMO: update connection params status = 16, min_int = 16, max_int = 32,conn_int = 30,latency = 0, timeout = 400[0m
+[0;33mW (30739) BT_HCI: hcif disc complete: hdl 0x0, rsn 0x13[0m
+[0;32mI (30739) GATTS_DEMO: ESP_GATTS_DISCONNECT_EVT, disconnect reason 0x13[0m
+[0;32mI (31229) GATTS_DEMO: ESP_GATTS_CONNECT_EVT, conn_id 0, remote 00:e0:4c:ab:47:03:[0m
+[0;32mI (31239) GATTS_DEMO: ESP_GATTS_MTU_EVT, MTU 500[0m
+[0;32mI (33239) GATTS_DEMO: update connection params status = 16, min_int = 16, max_int = 32,conn_int = 30,latency = 0, timeout = 400[0m
+[0;33mW (33739) BT_HCI: hcif disc complete: hdl 0x0, rsn 0x13[0m
+[0;32mI (33739) GATTS_DEMO: ESP_GATTS_DISCONNECT_EVT, disconnect reason 0x13[0m
+[0;32mI (34759) GATTS_DEMO: ESP_GATTS_CONNECT_EVT, conn_id 0, remote 00:e0:4c:ab:47:03:[0m
+[0;32mI (34789) GATTS_DEMO: ESP_GATTS_MTU_EVT, MTU 500[0m
+[0;32mI (36759) GATTS_DEMO: update connection params status = 16, min_int = 16, max_int = 32,conn_int = 30,latency = 0, timeout = 400[0m
+[0;33mW (37749) BT_HCI: hcif disc complete: hdl 0x0, rsn 0x13[0m
+[0;32mI (37749) GATTS_DEMO: ESP_GATTS_DISCONNECT_EVT, disconnect reason 0x13[0m
+[0;32mI (38589) GATTS_DEMO: ESP_GATTS_CONNECT_EVT, conn_id 0, remote 00:e0:4c:ab:47:03:[0m
+[0;32mI (38589) GATTS_DEMO: ESP_GATTS_MTU_EVT, MTU 500[0m
+[0;32mI (40589) GATTS_DEMO: update connection params status = 16, min_int = 16, max_int = 32,conn_int = 30,latency = 0, timeout = 400[0m
+[0;33mW (40749) BT_HCI: hcif disc complete: hdl 0x0, rsn 0x13[0m
+[0;32mI (40749) GATTS_DEMO: ESP_GATTS_DISCONNECT_EVT, disconnect reason 0x13[0m
+[0;32mI (41359) GATTS_DEMO: ESP_GATTS_CONNECT_EVT, conn_id 0, remote 00:e0:4c:ab:47:03:[0m
+[0;32mI (41359) GATTS_DEMO: ESP_GATTS_MTU_EVT, MTU 500[0m
+[0;32mI (43369) GATTS_DEMO: update connection params status = 16, min_int = 16, max_int = 32,conn_int = 30,latency = 0, timeout = 400[0m
+[0;33mW (43749) BT_HCI: hcif disc complete: hdl 0x0, rsn 0x13[0m
+[0;32mI (43749) GATTS_DEMO: ESP_GATTS_DISCONNECT_EVT, disconnect reason 0x13[0m
+[0;32mI (44389) GATTS_DEMO: ESP_GATTS_CONNECT_EVT, conn_id 0, remote 00:e0:4c:ab:47:03:[0m
+[0;32mI (44389) GATTS_DEMO: ESP_GATTS_MTU_EVT, MTU 500[0m
+[0;32mI (46389) GATTS_DEMO: update connection params status = 16, min_int = 16, max_int = 32,conn_int = 30,latency = 0, timeout = 400[0m
+[0;33mW (46739) BT_HCI: hcif disc complete: hdl 0x0, rsn 0x13[0m
+[0;32mI (46739) GATTS_DEMO: ESP_GATTS_DISCONNECT_EVT, disconnect reason 0x13[0m
+[0;32mI (47719) GATTS_DEMO: ESP_GATTS_CONNECT_EVT, conn_id 0, remote 00:e0:4c:ab:47:03:[0m
+[0;32mI (47729) GATTS_DEMO: ESP_GATTS_MTU_EVT, MTU 500[0m
+[0;32mI (49729) GATTS_DEMO: update connection params status = 16, min_int = 16, max_int = 32,conn_int = 30,latency = 0, timeout = 400[0m
+[0;33mW (50749) BT_HCI: hcif disc complete: hdl 0x0, rsn 0x13[0m
+[0;32mI (50749) GATTS_DEMO: ESP_GATTS_DISCONNECT_EVT, disconnect reason 0x13[0m
+[0;32mI (57979) GATTS_DEMO: ESP_GATTS_CONNECT_EVT, conn_id 0, remote 00:e0:4c:ab:47:03:[0m
+[0;32mI (58009) GATTS_DEMO: ESP_GATTS_MTU_EVT, MTU 500[0m
+[0;32mI (59979) GATTS_DEMO: update connection params status = 16, min_int = 16, max_int = 32,conn_int = 30,latency = 0, timeout = 400[0m
+[0;33mW (60739) BT_HCI: hcif disc complete: hdl 0x0, rsn 0x13[0m
+[0;32mI (60739) GATTS_DEMO: ESP_GATTS_DISCONNECT_EVT, disconnect reason 0x13[0m
+[0;32mI (79119) GATTS_DEMO: ESP_GATTS_CONNECT_EVT, conn_id 0, remote 00:e0:4c:ab:47:03:[0m
+[0;32mI (79129) GATTS_DEMO: ESP_GATTS_MTU_EVT, MTU 500[0m
+[0;32mI (81129) GATTS_DEMO: update connection params status = 16, min_int = 16, max_int = 32,conn_int = 30,latency = 0, timeout = 400[0m
+[0;33mW (81739) BT_HCI: hcif disc complete: hdl 0x0, rsn 0x13[0m
+[0;32mI (81739) GATTS_DEMO: ESP_GATTS_DISCONNECT_EVT, disconnect reason 0x13[0m
+[0;32mI (82779) GATTS_DEMO: ESP_GATTS_CONNECT_EVT, conn_id 0, remote 00:e0:4c:ab:47:03:[0m
+[0;32mI (82789) GATTS_DEMO: ESP_GATTS_MTU_EVT, MTU 500[0m
+[0;32mI (84789) GATTS_DEMO: update connection params status = 16, min_int = 16, max_int = 32,conn_int = 30,latency = 0, timeout = 400[0m
+[0;33mW (85739) BT_HCI: hcif disc complete: hdl 0x0, rsn 0x13[0m
+[0;32mI (85739) GATTS_DEMO: ESP_GATTS_DISCONNECT_EVT, disconnect reason 0x13[0m
+[0;32mI (86489) GATTS_DEMO: ESP_GATTS_CONNECT_EVT, conn_id 0, remote 00:e0:4c:ab:47:03:[0m
+[0;32mI (86489) GATTS_DEMO: ESP_GATTS_MTU_EVT, MTU 500[0m
+[0;32mI (88499) GATTS_DEMO: update connection params status = 16, min_int = 16, max_int = 32,conn_int = 30,latency = 0, timeout = 400[0m
+[0;33mW (89779) BT_HCI: hcif disc complete: hdl 0x0, rsn 0x13[0m
+[0;32mI (89779) GATTS_DEMO: ESP_GATTS_DISCONNECT_EVT, disconnect reason 0x13[0m
+[0;32mI (90519) GATTS_DEMO: ESP_GATTS_CONNECT_EVT, conn_id 0, remote 00:e0:4c:ab:47:03:[0m
+[0;32mI (90519) GATTS_DEMO: ESP_GATTS_MTU_EVT, MTU 500[0m
+[0;32mI (92529) GATTS_DEMO: update connection params status = 16, min_int = 16, max_int = 32,conn_int = 30,latency = 0, timeout = 400[0m
+[0;33mW (92759) BT_HCI: hcif disc complete: hdl 0x0, rsn 0x13[0m
+[0;32mI (92759) GATTS_DEMO: ESP_GATTS_DISCONNECT_EVT, disconnect reason 0x13[0m
+[0;32mI (99569) GATTS_DEMO: ESP_GATTS_CONNECT_EVT, conn_id 0, remote 00:e0:4c:ab:47:03:[0m
+[0;32mI (99569) GATTS_DEMO: ESP_GATTS_MTU_EVT, MTU 500[0m
+[0;32mI (101579) GATTS_DEMO: update connection params status = 16, min_int = 16, max_int = 32,conn_int = 30,latency = 0, timeout = 400[0m
+[0;33mW (101779) BT_HCI: hcif disc complete: hdl 0x0, rsn 0x13[0m
+[0;32mI (101779) GATTS_DEMO: ESP_GATTS_DISCONNECT_EVT, disconnect reason 0x13[0m
+[0;32mI (102449) GATTS_DEMO: ESP_GATTS_CONNECT_EVT, conn_id 0, remote 00:e0:4c:ab:47:03:[0m
+[0;32mI (102459) GATTS_DEMO: ESP_GATTS_MTU_EVT, MTU 500[0m
+[0;32mI (104459) GATTS_DEMO: update connection params status = 16, min_int = 16, max_int = 32,conn_int = 30,latency = 0, timeout = 400[0m
+[0;33mW (105779) BT_HCI: hcif disc complete: hdl 0x0, rsn 0x13[0m
+[0;32mI (105779) GATTS_DEMO: ESP_GATTS_DISCONNECT_EVT, disconnect reason 0x13[0m
+[0;32mI (111919) GATTS_DEMO: ESP_GATTS_CONNECT_EVT, conn_id 0, remote 00:e0:4c:ab:47:03:[0m
+[0;32mI (111919) GATTS_DEMO: ESP_GATTS_MTU_EVT, MTU 500[0m
+[0;32mI (113929) GATTS_DEMO: update connection params status = 16, min_int = 16, max_int = 32,conn_int = 30,latency = 0, timeout = 400[0m
+[0;33mW (114759) BT_HCI: hcif disc complete: hdl 0x0, rsn 0x13[0m
+[0;32mI (114759) GATTS_DEMO: ESP_GATTS_DISCONNECT_EVT, disconnect reason 0x13[0m
+[0;32mI (115279) GATTS_DEMO: ESP_GATTS_CONNECT_EVT, conn_id 0, remote 00:e0:4c:ab:47:03:[0m
+[0;32mI (115279) GATTS_DEMO: ESP_GATTS_MTU_EVT, MTU 500[0m
+[0;32mI (117279) GATTS_DEMO: update connection params status = 16, min_int = 16, max_int = 32,conn_int = 30,latency = 0, timeout = 400[0m
+[0;33mW (117739) BT_HCI: hcif disc complete: hdl 0x0, rsn 0x13[0m
+[0;32mI (117739) GATTS_DEMO: ESP_GATTS_DISCONNECT_EVT, disconnect reason 0x13[0m
+[0;32mI (118259) GATTS_DEMO: ESP_GATTS_CONNECT_EVT, conn_id 0, remote 00:e0:4c:ab:47:03:[0m
+[0;32mI (118259) GATTS_DEMO: ESP_GATTS_MTU_EVT, MTU 500[0m
+[0;32mI (120269) GATTS_DEMO: update connection params status = 16, min_int = 16, max_int = 32,conn_int = 30,latency = 0, timeout = 400[0m
+[0;33mW (120769) BT_HCI: hcif disc complete: hdl 0x0, rsn 0x13[0m
+[0;32mI (120769) GATTS_DEMO: ESP_GATTS_DISCONNECT_EVT, disconnect reason 0x13[0m
+[0;32mI (121329) GATTS_DEMO: ESP_GATTS_CONNECT_EVT, conn_id 0, remote 00:e0:4c:ab:47:03:[0m
+[0;32mI (121329) GATTS_DEMO: ESP_GATTS_MTU_EVT, MTU 500[0m
+[0;32mI (123339) GATTS_DEMO: update connection params status = 16, min_int = 16, max_int = 32,conn_int = 30,latency = 0, timeout = 400[0m
+[0;33mW (123789) BT_HCI: hcif disc complete: hdl 0x0, rsn 0x13[0m
+[0;32mI (123789) GATTS_DEMO: ESP_GATTS_DISCONNECT_EVT, disconnect reason 0x13[0m
+[0;32mI (124819) GATTS_DEMO: ESP_GATTS_CONNECT_EVT, conn_id 0, remote 00:e0:4c:ab:47:03:[0m
+[0;32mI (124819) GATTS_DEMO: ESP_GATTS_MTU_EVT, MTU 500[0m
+[0;32mI (126819) GATTS_DEMO: update connection params status = 16, min_int = 16, max_int = 32,conn_int = 30,latency = 0, timeout = 400[0m
+[0;33mW (127809) BT_HCI: hcif disc complete: hdl 0x0, rsn 0x13[0m
+[0;32mI (127809) GATTS_DEMO: ESP_GATTS_DISCONNECT_EVT, disconnect reason 0x13[0m
+[0;32mI (128939) GATTS_DEMO: ESP_GATTS_CONNECT_EVT, conn_id 0, remote 00:e0:4c:ab:47:03:[0m
+[0;32mI (128939) GATTS_DEMO: ESP_GATTS_MTU_EVT, MTU 500[0m
+[0;32mI (130949) GATTS_DEMO: update connection params status = 16, min_int = 16, max_int = 32,conn_int = 30,latency = 0, timeout = 400[0m
+[0;33mW (131749) BT_HCI: hcif disc complete: hdl 0x0, rsn 0x13[0m
+[0;32mI (131749) GATTS_DEMO: ESP_GATTS_DISCONNECT_EVT, disconnect reason 0x13[0m
+[0;32mI (132469) GATTS_DEMO: ESP_GATTS_CONNECT_EVT, conn_id 0, remote 00:e0:4c:ab:47:03:[0m
+[0;32mI (132469) GATTS_DEMO: ESP_GATTS_MTU_EVT, MTU 500[0m
+[0;32mI (134479) GATTS_DEMO: update connection params status = 16, min_int = 16, max_int = 32,conn_int = 30,latency = 0, timeout = 400[0m
+[0;33mW (135759) BT_HCI: hcif disc complete: hdl 0x0, rsn 0x13[0m
+[0;32mI (135759) GATTS_DEMO: ESP_GATTS_DISCONNECT_EVT, disconnect reason 0x13[0m
+[0;32mI (137049) GATTS_DEMO: ESP_GATTS_CONNECT_EVT, conn_id 0, remote 00:e0:4c:ab:47:03:[0m
+[0;32mI (137059) GATTS_DEMO: ESP_GATTS_MTU_EVT, MTU 500[0m
+[0;32mI (139059) GATTS_DEMO: update connection params status = 16, min_int = 16, max_int = 32,conn_int = 30,latency = 0, timeout = 400[0m
+[0;33mW (139739) BT_HCI: hcif disc complete: hdl 0x0, rsn 0x13[0m
+[0;32mI (139739) GATTS_DEMO: ESP_GATTS_DISCONNECT_EVT, disconnect reason 0x13[0m
+[0;32mI (140319) GATTS_DEMO: ESP_GATTS_CONNECT_EVT, conn_id 0, remote 00:e0:4c:ab:47:03:[0m
+[0;32mI (140319) GATTS_DEMO: ESP_GATTS_MTU_EVT, MTU 500[0m
+[0;32mI (142319) GATTS_DEMO: update connection params status = 16, min_int = 16, max_int = 32,conn_int = 30,latency = 0, timeout = 400[0m
+[0;33mW (142739) BT_HCI: hcif disc complete: hdl 0x0, rsn 0x13[0m
+[0;32mI (142739) GATTS_DEMO: ESP_GATTS_DISCONNECT_EVT, disconnect reason 0x13[0m
+[0;32mI (143509) GATTS_DEMO: ESP_GATTS_CONNECT_EVT, conn_id 0, remote 00:e0:4c:ab:47:03:[0m
+[0;32mI (143509) GATTS_DEMO: ESP_GATTS_MTU_EVT, MTU 500[0m
+[0;32mI (145519) GATTS_DEMO: update connection params status = 16, min_int = 16, max_int = 32,conn_int = 30,latency = 0, timeout = 400[0m
+[0;33mW (146759) BT_HCI: hcif disc complete: hdl 0x0, rsn 0x13[0m
+[0;32mI (146759) GATTS_DEMO: ESP_GATTS_DISCONNECT_EVT, disconnect reason 0x13[0m
+[0;32mI (147529) GATTS_DEMO: ESP_GATTS_CONNECT_EVT, conn_id 0, remote 00:e0:4c:ab:47:03:[0m
+[0;32mI (147539) GATTS_DEMO: ESP_GATTS_MTU_EVT, MTU 500[0m
+[0;32mI (149539) GATTS_DEMO: update connection params status = 16, min_int = 16, max_int = 32,conn_int = 30,latency = 0, timeout = 400[0m
+[0;33mW (149739) BT_HCI: hcif disc complete: hdl 0x0, rsn 0x13[0m
+[0;32mI (149739) GATTS_DEMO: ESP_GATTS_DISCONNECT_EVT, disconnect reason 0x13[0m
+ets Jun  8 2016 00:22:57
+
+rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:7080
+load:0x40078000,len:15584
+load:0x40080400,len:4
+ho 8 tail 4 room 4
+load:0x40080404,len:3876
+entry 0x4008064c
+[0;32mI (31) boot: ESP-IDF v5.1.1 2nd stage bootloader[0m
+[0;32mI (31) boot: compile time Dec  5 2023 21:04:06[0m
+[0;32mI (31) boot: Multicore bootloader[0m
+[0;32mI (35) boot: chip revision: v1.0[0m
+[0;32mI (39) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (43) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (48) boot.esp32: SPI Flash Size : 2MB[0m
+[0;32mI (53) boot: Enabling RNG early entropy source...[0m
+[0;32mI (58) boot: Partition Table:[0m
+[0;32mI (62) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (69) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (76) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (84) boot:  2 factory          factory app      00 00 0001000
