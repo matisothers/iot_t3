@@ -6,7 +6,7 @@ import api from "../utils/api";
 import { useState, useEffect } from "react";
 
 const MainView = () => {
-  const ESP1 = "3c:61:05:65:47:22";
+  const ESP1 = "3c:61:5:65:47:22";
   const ESP2 = "ac:67:b2:3c:12:96";
   const cols = [
     "batt_level",
