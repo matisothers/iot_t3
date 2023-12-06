@@ -204,6 +204,7 @@ async def main():
         connection_tasks.append(manage_server(device, config))
 
     while config.get()[0] < 2:
+        print(config.get()[0])
         await asyncio.gather(*connection_tasks)
 
         
