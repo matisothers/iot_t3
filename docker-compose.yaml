@@ -32,6 +32,8 @@ services:
       - POSTGRES_USER=postgres
       - POSTGRES_PASSWORD=postgres
       - POSTGRES_NAME=postgres
+      - BACKEND_URL=192.168.4.1
+      - BACKEND_PORT=8000
     volumes:
       - postgres_data_iot:/var/lib/postgresql/data
     restart: unless-stopped # Hace que el contenedor se reinicie a menos que se detenga manualmente

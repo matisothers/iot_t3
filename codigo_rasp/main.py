@@ -1,5 +1,5 @@
 import asyncio
-from ..backend.src.modelos import Configuration, create_tables
+from modelos import Configuration, create_tables
 from client import main
 from server import Server
 
