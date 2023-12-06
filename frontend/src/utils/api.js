@@ -1,6 +1,6 @@
 import axios from "axios";
-const BACKEND_URL = process.env.BACKEND_URL;
-const BACKEND_PORT = process.env.BACKEND_PORT;
+const BACKEND_URL = "192.168.4.1";
+const BACKEND_PORT = 8000;
 
 let backendUrl = `http://${BACKEND_URL}:${BACKEND_PORT}`; // Esto lo deben de modificar (idealmente una variable de entorno)
 
