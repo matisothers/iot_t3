@@ -344,15 +344,6 @@ esp-idf_IS_TOP_LEVEL:STATIC=OFF
 esp-idf_SOURCE_DIR:STATIC=/Users/mati/esp/esp-idf
 
 //Value Computed by CMake
-main_BINARY_DIR:STATIC=/Users/mati/Desktop/iot_t3/codigo_esp/build
-
-//Value Computed by CMake
-main_IS_TOP_LEVEL:STATIC=ON
-
-//Value Computed by CMake
-main_SOURCE_DIR:STATIC=/Users/mati/Desktop/iot_t3/codigo_esp
-
-//Value Computed by CMake
 mbed TLS_BINARY_DIR:STATIC=/Users/mati/Desktop/iot_t3/codigo_esp/build/esp-idf/mbedtls/mbedtls
 
 //Value Computed by CMake

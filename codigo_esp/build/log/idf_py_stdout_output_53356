@@ -1,0 +1,87 @@
+[1/10] Performing build step for 'bootloader'
+[1/1] cd /Users/mati/Desktop/iot_t3/codigo_esp/build/bootloader/esp-idf/esptool_py && /Users/mati/.espressif/python_env/idf5.1_py3.10_env/bin/python /Users/mati/esp/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 bootloader 0x1000 /Users/mati/Desktop/iot_t3/codigo_esp/build/bootloader/bootloader.bin
+Bootloader binary size 0x6810 bytes. 0x7f0 bytes (7%) free.
+[2/10] No install step for 'bootloader'
+[3/10] Completed 'bootloader'
+[4/10] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/main.c.obj
+In file included from /Users/mati/Desktop/iot_t3/codigo_esp/main/main.c:8:
+/Users/mati/Desktop/iot_t3/codigo_esp/main/server.h:51:13: warning: 'gatts_profile_a_event_handler' used but never defined
+   51 | static void gatts_profile_a_event_handler(esp_gatts_cb_event_t event, esp_gatt_if_t gatts_if, esp_ble_gatts_cb_param_t *param);
+      |             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/mati/Desktop/iot_t3/codigo_esp/main/server.h:52:13: warning: 'gatts_profile_b_event_handler' used but never defined
+   52 | static void gatts_profile_b_event_handler(esp_gatts_cb_event_t event, esp_gatt_if_t gatts_if, esp_ble_gatts_cb_param_t *param);
+      |             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/mati/Desktop/iot_t3/codigo_esp/main/server.h:192:27: warning: 'b_prepare_write_env' defined but not used [-Wunused-variable]
+  192 | static prepare_type_env_t b_prepare_write_env;
+      |                           ^~~~~~~~~~~~~~~~~~~
+/Users/mati/Desktop/iot_t3/codigo_esp/main/server.h:191:27: warning: 'a_prepare_write_env' defined but not used [-Wunused-variable]
+  191 | static prepare_type_env_t a_prepare_write_env;
+      |                           ^~~~~~~~~~~~~~~~~~~
+/Users/mati/Desktop/iot_t3/codigo_esp/main/server.h:175:34: warning: 'gl_profile_tab' defined but not used [-Wunused-variable]
+  175 | static struct gatts_profile_inst gl_profile_tab[PROFILE_NUM] = {
+      |                                  ^~~~~~~~~~~~~~
+/Users/mati/Desktop/iot_t3/codigo_esp/main/server.h:144:29: warning: 'adv_params' defined but not used [-Wunused-variable]
+  144 | static esp_ble_adv_params_t adv_params = {
+      |                             ^~~~~~~~~~
+/Users/mati/Desktop/iot_t3/codigo_esp/main/server.h:126:27: warning: 'scan_rsp_data' defined but not used [-Wunused-variable]
+  126 | static esp_ble_adv_data_t scan_rsp_data = {
+      |                           ^~~~~~~~~~~~~
+/Users/mati/Desktop/iot_t3/codigo_esp/main/server.h:110:27: warning: 'adv_data' defined but not used [-Wunused-variable]
+  110 | static esp_ble_adv_data_t adv_data = {
+      |                           ^~~~~~~~
+/Users/mati/Desktop/iot_t3/codigo_esp/main/server.h:84:16: warning: 'adv_config_done' defined but not used [-Wunused-variable]
+   84 | static uint8_t adv_config_done = 0;
+      |                ^~~~~~~~~~~~~~~
+/Users/mati/Desktop/iot_t3/codigo_esp/main/server.h:77:25: warning: 'gatts_demo_char1_val' defined but not used [-Wunused-variable]
+   77 | static esp_attr_value_t gatts_demo_char1_val =
+      |                         ^~~~~~~~~~~~~~~~~~~~
+/Users/mati/Desktop/iot_t3/codigo_esp/main/server.h:75:29: warning: 'b_property' defined but not used [-Wunused-variable]
+   75 | static esp_gatt_char_prop_t b_property = 0;
+      |                             ^~~~~~~~~~
+/Users/mati/Desktop/iot_t3/codigo_esp/main/server.h:74:29: warning: 'a_property' defined but not used [-Wunused-variable]
+   74 | static esp_gatt_char_prop_t a_property = 0;
+      |                             ^~~~~~~~~~
+[5/10] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/server.c.obj
+In file included from /Users/mati/Desktop/iot_t3/codigo_esp/main/server.c:5:
+/Users/mati/Desktop/iot_t3/codigo_esp/main/client.h:80:1: warning: no semicolon at end of struct or union
+   80 | };
+      | ^
+/Users/mati/Desktop/iot_t3/codigo_esp/main/client.h:80:1: warning: useless storage class specifier in empty declaration
+/Users/mati/Desktop/iot_t3/codigo_esp/main/server.c: In function 'gatts_profile_a_event_handler':
+/Users/mati/Desktop/iot_t3/codigo_esp/main/server.c:321:18: warning: cast to pointer from integer of different size [-Wint-to-pointer-cast]
+  321 |             tl = (char *)param->write.value[3];
+      |                  ^
+/Users/mati/Desktop/iot_t3/codigo_esp/main/server.c:321:16: warning: assignment to 'char' from 'char *' makes integer from pointer without a cast [-Wint-conversion]
+  321 |             tl = (char *)param->write.value[3];
+      |                ^
+/Users/mati/Desktop/iot_t3/codigo_esp/main/server.c:322:24: warning: cast to pointer from integer of different size [-Wint-to-pointer-cast]
+  322 |             protocol = (char *)param->write.value[4];
+      |                        ^
+/Users/mati/Desktop/iot_t3/codigo_esp/main/server.c:322:22: warning: assignment to 'char' from 'char *' makes integer from pointer without a cast [-Wint-conversion]
+  322 |             protocol = (char *)param->write.value[4];
+      |                      ^
+/Users/mati/Desktop/iot_t3/codigo_esp/main/client.h: At top level:
+/Users/mati/Desktop/iot_t3/codigo_esp/main/client.h:38:27: warning: 's_wifi_event_group' defined but not used [-Wunused-variable]
+   38 | static EventGroupHandle_t s_wifi_event_group;
+      |                           ^~~~~~~~~~~~~~~~~~
+/Users/mati/Desktop/iot_t3/codigo_esp/main/client.h:37:12: warning: 's_retry_num' defined but not used [-Wunused-variable]
+   37 | static int s_retry_num = 0;
+      |            ^~~~~~~~~~~
+/Users/mati/Desktop/iot_t3/codigo_esp/main/client.h:36:20: warning: 'TAG' defined but not used [-Wunused-variable]
+   36 | static const char* TAG = "WIFI";
+      |                    ^~~
+[6/10] Linking C static library esp-idf/main/libmain.a
+[7/10] Generating ld/sections.ld
+[8/10] Linking CXX executable nvs_rw_value.elf
+[9/10] Generating binary image from built executable
+esptool.py v4.7.dev2
+Creating esp32 image...
+Merged 25 ELF sections
+Successfully created esp32 image.
+Generated /Users/mati/Desktop/iot_t3/codigo_esp/build/nvs_rw_value.bin
+[10/10] cd /Users/mati/Desktop/iot_t3/codigo_esp/build/esp-idf/esptool_py && /Users/mati/.espressif/python_env/idf5.1_py3.10_env/bin/python /Users/mati/esp/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 partition --type app /Users/mati/Desktop/iot_t3/codigo_esp/build/partition_table/partition-table.bin /Users/mati/Desktop/iot_t3/codigo_esp/build/nvs_rw_value.bin
+FAILED: esp-idf/esptool_py/CMakeFiles/app_check_size /Users/mati/Desktop/iot_t3/codigo_esp/build/esp-idf/esptool_py/CMakeFiles/app_check_size 
+cd /Users/mati/Desktop/iot_t3/codigo_esp/build/esp-idf/esptool_py && /Users/mati/.espressif/python_env/idf5.1_py3.10_env/bin/python /Users/mati/esp/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 partition --type app /Users/mati/Desktop/iot_t3/codigo_esp/build/partition_table/partition-table.bin /Users/mati/Desktop/iot_t3/codigo_esp/build/nvs_rw_value.bin
+Error: app partition is too small for binary nvs_rw_value.bin size 0x1399f0:
+  - Part 'factory' 0/0 @ 0x10000 size 0x100000 (overflow 0x399f0)
+ninja: build stopped: subcommand failed.

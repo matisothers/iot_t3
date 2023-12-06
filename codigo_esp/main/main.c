@@ -5,6 +5,8 @@
 #include "esp_system.h"
 #include "nvs_flash.h"
 #include "nvs.h"
+#include "server.h"
+#include "main_client.h"
 
 
 
@@ -34,12 +36,12 @@ void app_main(void){
 
         // Read
         printf("Reading restart counter from NVS ... ");
-        int32_t restart_counter = 0; // value will default to 0, if not set yet in NVS
-        err = nvs_get_i32(my_handle, "restart_counter", &restart_counter);
+        int32_t transport_layer = 0; // value will default to 0, if not set yet in NVS
+        err = nvs_get_i32(my_handle, "transport_layer", &transport_layer);
         switch (err) {
             case ESP_OK:
                 printf("Done\n");
-                printf("Restart counter = %" PRIu32 "\n", restart_counter);
+                printf("transport_layer = %" PRIu32 "\n", transport_layer);
                 break;
             case ESP_ERR_NVS_NOT_FOUND:
                 printf("The value is not initialized yet!\n");
@@ -48,10 +50,32 @@ void app_main(void){
                 printf("Error (%s) reading!\n", esp_err_to_name(err));
         } 
 
+
+
+        // Corremos wifi o ble segun sea necesario
+
+        if(transport_layer <= 1){ // 0 - 1 BLE
+            transport_layer = run_server();
+        }
+        else{
+            // aca deberia correr cliente wi fi
+            run_client();
+        }
+
+        if(transport_layer == 1 || transport_layer == 2){
+            esp_deep_sleep_start();
+        }
+
+
+
+        // cambiamos transport_layer
+
+
+
+
         // Write
         printf("Updating restart counter in NVS ... ");
-        restart_counter++;
-        err = nvs_set_i32(my_handle, "restart_counter", restart_counter);
+        err = nvs_set_i32(my_handle, "transport_layer", transport_layer);
         printf((err != ESP_OK) ? "Failed!\n" : "Done\n");
 
         // Commit written value.
@@ -69,10 +93,7 @@ void app_main(void){
     printf("\n");
 
     // Restart module
-    for (int i = 10; i >= 0; i--) {
-        printf("Restarting in %d seconds...\n", i);
-        vTaskDelay(1000 / portTICK_PERIOD_MS);
-    }
+   
     printf("Restarting now.\n");
     fflush(stdout);
     esp_restart();
