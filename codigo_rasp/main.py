@@ -6,7 +6,7 @@ from server import Server
 
 
 
-def main():
+def my_main():
     # crea las tablas x si acaso
     create_tables()
 
@@ -34,4 +34,4 @@ def main():
 
 
 
-main()
+my_main()
