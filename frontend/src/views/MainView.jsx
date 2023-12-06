@@ -1,6 +1,5 @@
 import BaseGraph from "../components/graficos/BaseGraph";
 import SettingsForm from "../components/settings/SettingsFrom";
-import Comment from "../components/utiles/Comment";
 import api from "../utils/api";
 
 import { useState, useEffect } from "react";
@@ -242,9 +241,6 @@ const MainView = () => {
           <h3 className="text-2xl p-2">Settings</h3>
           <SettingsForm postToApi={postToApi} getFromApi={onClickGet}></SettingsForm>
 
-          <Comment
-            comment={`Aqui deben de poner todos los settings para interactuar con la base de datos deben de ser todos`}
-          ></Comment>
         </div>
 
         <div className="w-2/3 border rounded-md ">
@@ -265,13 +261,7 @@ const MainView = () => {
           )}
           
 
-          <Comment
-            comment={`Aquí se espera que puedan seleccionar qué datos se quieren graficar
-              , y de qué dispositivo (Cuál de las dos ESP)`}
-          ></Comment>
-
           <h3 className="text-2xl p-2">API</h3>
-          <Comment comment={`Les puede ser util ir a localhost:8000/docs!`} />
 
           <button
             onClick={onClickGet}
@@ -302,9 +292,8 @@ const MainView = () => {
           <br />
           <p>{JSON.stringify(configData)}</p>
           <br />
-          <Comment
-            comment={`Aqui jueguen modificando el enpoint en backend/src/main.py`}
-          />
+
+      
         </div>
       </div>
     </>

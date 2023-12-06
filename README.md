@@ -2,16 +2,16 @@
 
 ### Integrantes
 
-- Nombre y Apellido
-- Nombre y Apellido
-- Nombre y Apellido
+- Javier González
+- Matías Sothers
+- Martín Faray
+- Sergio Gálvez
 
 ---
 
 ## Desripción de la tarea
 
-_Aqui por favor agregar una descripción de la tarea_
-na po la mejor tarea
+Conexión entre 2 ESP a una RaspberryPI a través de Bluetooth y WiFi donde los datos se almacenan en una base de datos PostgreSQL y se visualiza en una página web hecha en React, conectada a endpoints otorgados por un backend hecho con FastAPI.
 
 ## Introducción
 
