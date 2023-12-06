@@ -4,9 +4,13 @@ from pydantic import BaseModel
 from starlette.middleware.cors import CORSMiddleware
 from modelos import create_tables, Configuration, Datos
 import random
+from math import sqrt
 # -------------------------
 # Conexion a la base de datos
 # -------------------------
+
+ESP1 = "oli"
+ESP2 = "ola"
 
 db = PostgresqlDatabase(
     'iot_db',
@@ -54,7 +58,7 @@ class SetSetting(BaseModel):
 
 @app.get("/ejemplo/")
 async def get_items(database: PostgresqlDatabase = Depends(get_database)):
-    # Aqui pueden acceder a la base de datos y hacer las consultas que necesiten
+    # Aqui pueden acceder a la base de datos ,hacer las consultas que necesiten
     create_tables()
     tables = database.get_tables()  # esto es solo un ejemplo
     print(tables)
@@ -108,29 +112,45 @@ async def set_config(setting: SetSetting, database: PostgresqlDatabase = Depends
 @app.get("/data/")
 async def get_data():
     datos = Datos()
-    response_data = list(datos.select())
-    return response_data
+    response_data_esp1 = list(datos.select().where(Datos.id_device == ESP1).order_by(Datos.id.desc()).limit(50))
+    response_data_esp2 = list(datos.select().where(Datos.id_device == ESP2).order_by(Datos.id.desc()).limit(50))
+    return response_data_esp1 + response_data_esp2
 
 # funcion para testear noma
 @app.post("/data/")
 async def create_random_data(setting: SetSetting, database: PostgresqlDatabase = Depends(get_database)):
     data = setting.dict()
-    print(data)
     protocol = data["id_protocol"]
     row = {"batt_level": random.randint(0, 100)}
     row["header_id"]  = random.randint(0, 10000)
-    row["id_device"]  = "oli"
+    row["id_device"]  = "oli" if random.randint(0,1) == 0 else "ola"
     row["id_protocol"]  = protocol
     row["transport_layer"]  = data["transport_layer"]
     row["length"]  = 1
     row["header_mac"] = "aa:bb:cc:dd"
-    if (protocol > 0):
+    if (protocol > 1):
         row["length"]  += 12
         row["temp"] = random.randint(5, 30)
         row["hum"] = random.randint(30, 80)
         row["pres"] = random.randint(1000, 1200)
-        row["co"] = random.randrange(30, 200)
-    print(row)
+        row["co"] = random.uniform(30, 200)
+    if (protocol > 2):
+        """
+        Ampx: Valores aleatorios entre  0.0059 ,0.12
+        Freqx: Valores aleatorios entre 29.0 ,31.0
+        Ampy: Valores aleatorios entre  0.0041 ,0.11
+        Freqy: Valores aleatorios entre 59.0 ,61.0
+        Ampz: Valores aleatorios entre  0.008 ,0.15
+        Freqz: Valores aleatorios entre 89.0 ,91.0
+        RMS: sqrt{(Ampx^2 + Ampy^2 + Ampz^2)}"""
+        row["amp_x"] = random.uniform (0.0059 ,0.12)
+        row["frec_x"] = random.uniform(29.0 ,31.0)
+        row["amp_y"] = random.uniform (0.0041 ,0.11)
+        row["frec_y"] = random.uniform(59.0 ,61.0)
+        row["amp_z"] = random.uniform (0.008 ,0.15)
+        row["frec_z"] = random.uniform(89.0 ,91.0)
+        row["rms"] = sqrt(row["amp_x"]**2 + row["amp_y"]**2 + row["amp_z"]**2)
+
     Datos().create(**row)
 
     return row
